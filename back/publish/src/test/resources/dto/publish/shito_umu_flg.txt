@@ -1,0 +1,3 @@
+<SitoUmuFlgDto>
+  <SITO_UMU>111100000000001100</SITO_UMU>
+</SitoUmuFlgDto>

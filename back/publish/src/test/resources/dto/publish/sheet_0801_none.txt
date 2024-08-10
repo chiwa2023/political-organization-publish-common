@@ -1,0 +1,17 @@
+<Sheet0801Dto>
+  <NENDO/>
+  <SEITOU_SK_NM/>
+  <SEITOU_KANA/>
+  <JIMU_ADR/>
+  <DAI_NM/>
+  <KAI_NM/>
+  <TANTOU1_NM/>
+  <TANTOU1_TEL/>
+  <TANTOU2_NM/>
+  <TANTOU2_TEL/>
+  <SIBU_KBN/>
+  <KAISAN_KBN/>
+  <KAISAN_DT/>
+  <SEIRI_NO/>
+  <UKETUKE_NO/>
+</Sheet0801Dto>

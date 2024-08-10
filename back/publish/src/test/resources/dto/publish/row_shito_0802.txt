@@ -1,0 +1,6 @@
+<RowShito0802Dto>
+  <ICHIREN_NO>3</ICHIREN_NO>
+  <KOUMOKU_NM>項目名称</KOUMOKU_NM>
+  <DT>R4/12/1</DT>
+  <KINGAKU>65432</KINGAKU>
+</RowShito0802Dto>

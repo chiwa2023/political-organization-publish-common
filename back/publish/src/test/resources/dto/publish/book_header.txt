@@ -1,0 +1,6 @@
+<BookHeadDto>
+  <VERSION>20191220</VERSION>
+  <APP>使途等報告書作成ソフト</APP>
+  <APP_FLG>0</APP_FLG>
+  <HONBU_FLG>0</HONBU_FLG>
+</BookHeadDto>

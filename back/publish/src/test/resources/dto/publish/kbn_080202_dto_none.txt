@@ -1,0 +1,3 @@
+<Kbn080202Dto>
+  <KINGAKU_GK>0</KINGAKU_GK>
+</Kbn080202Dto>
