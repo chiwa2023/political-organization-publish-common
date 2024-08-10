@@ -13,7 +13,7 @@ public class RowShitoCoreDto implements Serializable { // NOPMD DataClass
 
     /** 行番号 */
     @JacksonXmlProperty(localName = "ICHIREN_NO")
-    private String rowNo;
+    private Integer rowNo;
 
     /** 取引項目 */
     @JacksonXmlProperty(localName = "MOKUTEKI")
@@ -56,7 +56,7 @@ public class RowShitoCoreDto implements Serializable { // NOPMD DataClass
      *
      * @return 行番号
      */
-    public String getRowNo() {
+    public Integer getRowNo() {
         return rowNo;
     }
 
@@ -65,7 +65,7 @@ public class RowShitoCoreDto implements Serializable { // NOPMD DataClass
      *
      * @param rowNo 行番号
      */
-    public void setRowNo(final String rowNo) {
+    public void setRowNo(final Integer rowNo) {
         this.rowNo = rowNo;
     }
 

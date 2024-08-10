@@ -58,7 +58,7 @@ class Shito0804DtoTest {
 
         // 1行データあり
         RowShitoCoreDto row1 = new RowShitoCoreDto();
-        row1.setRowNo("1");
+        row1.setRowNo(1);
         row1.setUsageItem("取引項目");
         row1.setAmountAll("10000");
         row1.setAmountKoufukin("4000");
@@ -90,6 +90,7 @@ class Shito0804DtoTest {
         shito1.getKbn080403Dto().getList().add(new Sheet0804Dto());
         shito1.getKbn080404Dto().getList().add(sheet1);
         shito1.getKbn080404Dto().getList().add(new Sheet0804Dto());
+        shito1.getKbn080405Dto().getList().add(sheet1);
         shito1.getKbn080405Dto().getList().add(new Sheet0804Dto());
         shito1.getKbn080406Dto().getList().add(sheet1);
         shito1.getKbn080406Dto().getList().add(new Sheet0804Dto());

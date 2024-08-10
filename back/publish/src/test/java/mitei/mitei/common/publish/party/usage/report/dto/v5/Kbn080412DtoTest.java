@@ -50,7 +50,7 @@ class Kbn080412DtoTest {
 
         // 1行データあり
         RowShitoCoreDto row1 = new RowShitoCoreDto();
-        row1.setRowNo("1");
+        row1.setRowNo(1);
         row1.setUsageItem("取引項目");
         row1.setAmountAll("10000");
         row1.setAmountKoufukin("4000");

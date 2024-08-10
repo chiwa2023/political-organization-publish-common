@@ -33,7 +33,7 @@ class RowShitoCoreDtoTest {
         RowShitoCoreDto row0 = new RowShitoCoreDto();
 
         // 行番号
-        row0.setRowNo("1");
+        row0.setRowNo(1);
         // 取引項目
         row0.setUsageItem("取引項目");
         // 総支出額
