@@ -1,0 +1,75 @@
+<Shito0802Dto>
+  <SHEET>
+    <KUBUN1>
+      <ROW>
+        <ICHIREN_NO>1</ICHIREN_NO>
+        <KOUMOKU_NM>政党交付金（支部政党交付金）の総額　--------------------------------------------①</KOUMOKU_NM>
+        <DT></DT>
+        <KINGAKU>12345</KINGAKU>
+      </ROW>
+      <ROW>
+        <ICHIREN_NO>2</ICHIREN_NO>
+        <KOUMOKU_NM>前年末政党基金（支部基金）残高　------------------------------------------------②</KOUMOKU_NM>
+        <DT></DT>
+        <KINGAKU>23456</KINGAKU>
+      </ROW>
+      <ROW>
+        <ICHIREN_NO>3</ICHIREN_NO>
+        <KOUMOKU_NM>政党交付金（支部政党交付金）による支出総額（④＋⑤）　--------------------------③</KOUMOKU_NM>
+        <DT></DT>
+        <KINGAKU>34567</KINGAKU>
+      </ROW>
+      <ROW>
+        <ICHIREN_NO>4</ICHIREN_NO>
+        <KOUMOKU_NM>　政党交付金（支部政党交付金）支出充当額総額　----------------------------------④</KOUMOKU_NM>
+        <DT></DT>
+        <KINGAKU>45678</KINGAKU>
+      </ROW>
+      <ROW>
+        <ICHIREN_NO>5</ICHIREN_NO>
+        <KOUMOKU_NM>　政党基金（支部基金）支出充当額総額　------------------------------------------⑤</KOUMOKU_NM>
+        <DT></DT>
+        <KINGAKU>56789</KINGAKU>
+      </ROW>
+      <ROW>
+        <ICHIREN_NO>6</ICHIREN_NO>
+        <KOUMOKU_NM>政党基金（支部基金）の積立に充てるために取り崩した政党基金（支部基金）の額　----⑥</KOUMOKU_NM>
+        <DT></DT>
+        <KINGAKU>67890</KINGAKU>
+      </ROW>
+      <ROW>
+        <ICHIREN_NO>7</ICHIREN_NO>
+        <KOUMOKU_NM>政党基金（支部基金）積立総額（果実を含む。）　----------------------------------⑦</KOUMOKU_NM>
+        <DT></DT>
+        <KINGAKU>78901</KINGAKU>
+      </ROW>
+      <ROW>
+        <ICHIREN_NO>8</ICHIREN_NO>
+        <KOUMOKU_NM>　政党基金（支部基金）の運用により収受した果実の総額　</KOUMOKU_NM>
+        <DT></DT>
+        <KINGAKU>89012</KINGAKU>
+      </ROW>
+      <ROW>
+        <ICHIREN_NO>9</ICHIREN_NO>
+        <KOUMOKU_NM>本年末等政党基金（支部基金）残高（②－⑤－⑥＋⑦）　----------------------------⑧</KOUMOKU_NM>
+        <DT></DT>
+        <KINGAKU>90123</KINGAKU>
+      </ROW>
+      <ROW>
+        <ICHIREN_NO>10</ICHIREN_NO>
+        <KOUMOKU_NM>　　（備　　　　　考）　　　　　　　　　　　　　　　　　　　　　　　①－③＋②－⑧</KOUMOKU_NM>
+        <DT></DT>
+        <KINGAKU>65432</KINGAKU>
+      </ROW>
+    </KUBUN1>
+    <KUBUN2>
+      <KINGAKU_GK>200000</KINGAKU_GK>
+      <ROW>
+        <ICHIREN_NO>3</ICHIREN_NO>
+        <KOUMOKU_NM>項目名称</KOUMOKU_NM>
+        <DT>R4/12/1</DT>
+        <KINGAKU>65432</KINGAKU>
+      </ROW>
+    </KUBUN2>
+  </SHEET>
+</Shito0802Dto>
