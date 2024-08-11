@@ -1,0 +1,12 @@
+<Shito0901Dto>
+  <SHEET>
+    <ROW>
+      <ICHIREN_NO>7</ICHIREN_NO>
+      <KOMOKU>備品・消耗品費</KOMOKU>
+      <TEKIYOU>aaaaa</TEKIYOU>
+      <KINGAKU>20000</KINGAKU>
+      <DT>R4/12/1</DT>
+      <JIJYOU>相手が××だった</JIJYOU>
+    </ROW>
+  </SHEET>
+</Shito0901Dto>

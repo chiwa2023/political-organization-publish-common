@@ -1,0 +1,5 @@
+<Sheet0902Dto>
+  <KOMOKU>事務所費</KOMOKU>
+  <TEKIYO>適当な摘要</TEKIYO>
+  <DANTAI_NM>ちゃらんぽらん政治団体</DANTAI_NM>
+</Sheet0902Dto>

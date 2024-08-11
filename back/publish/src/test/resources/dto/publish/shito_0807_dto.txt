@@ -1,0 +1,11 @@
+<Shito0807Dto>
+  <SHEET>
+    <TENPU1>0</TENPU1>
+    <TENPU2>1</TENPU2>
+    <TENPU3>0</TENPU3>
+    <TENPU4>0</TENPU4>
+    <TENPU5>0</TENPU5>
+    <KAKUNIN1>1</KAKUNIN1>
+    <DT>R5/11/30</DT>
+  </SHEET>
+</Shito0807Dto>

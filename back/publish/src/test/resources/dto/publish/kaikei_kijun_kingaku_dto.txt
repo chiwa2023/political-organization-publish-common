@@ -1,0 +1,3 @@
+<KaikeiKijunKingakuDto>
+  <KINGAKU>50000</KINGAKU>
+</KaikeiKijunKingakuDto>

@@ -1,0 +1,5 @@
+<KaikeiShishutuKijunDto>
+  <SHEET>
+    <KINGAKU>50000</KINGAKU>
+  </SHEET>
+</KaikeiShishutuKijunDto>
