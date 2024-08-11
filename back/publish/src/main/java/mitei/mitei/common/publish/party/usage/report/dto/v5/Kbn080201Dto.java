@@ -16,7 +16,7 @@ import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
  * 4)項目名称不可(多分)
  * ・・・のように金額だけが変更可能
  */
-public class Kbn080201Dto   implements Serializable{
+public class Kbn080201Dto  implements Serializable{
 
     /** serialId */
     private static final long serialVersionUID = 1L;

@@ -40,7 +40,7 @@ class RowShito0802DtoTest {
         // XML生成
         String xml = xmlMapper.writeValueAsString(row0);
 
-        assertEquals(answer, xml, "すべてのカラムに異なる値をい入れた場合");
+        assertEquals(answer, xml, "すべてのカラムに異なる値を入れた場合");
     }
 
 }
