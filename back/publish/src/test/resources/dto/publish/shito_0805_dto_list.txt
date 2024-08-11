@@ -1,0 +1,14 @@
+<Shito0805Dto>
+  <SHEET>
+    <KINGAKU_GK>242424</KINGAKU_GK>
+    <ROW>
+      <ICHIREN_NO>1</ICHIREN_NO>
+      <SIBU_NM>支部名称</SIBU_NM>
+      <KINGAKU>23456</KINGAKU>
+      <DT>R3/11/13</DT>
+      <MOKUTEKI>事務所費</MOKUTEKI>
+      <BIKOU>備考</BIKOU>
+      <ROWKBN>100</ROWKBN>
+    </ROW>
+  </SHEET>
+</Shito0805Dto>

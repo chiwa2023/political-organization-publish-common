@@ -8,15 +8,11 @@ import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlElementWrapper;
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
 
 /**
- * 様式番号8の2の区分1
- * XML生成のためにリストのgetter,setterをアクセス可能にしているが、リストの要素を変更しないこと.
- * 1)要素の削除は業務上の要請により不可
- * 2)発生日は常に空文字(設定することに意味がない)
- * 3)行番号変更不可(多分)
- * 4)項目名称不可(多分)
+ * 様式番号8の2の区分1 XML生成のためにリストのgetter,setterをアクセス可能にしているが、リストの要素を変更しないこと.
+ * 1)要素の削除は業務上の要請により不可 2)発生日は常に空文字(設定することに意味がない) 3)行番号変更不可(多分) 4)項目名称不可(多分)
  * ・・・のように金額だけが変更可能
  */
-public class Kbn080201Dto  implements Serializable{
+public class Kbn080201Dto implements Serializable {
 
     /** serialId */
     private static final long serialVersionUID = 1L;

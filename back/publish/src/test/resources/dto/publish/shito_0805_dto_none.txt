@@ -1,0 +1,5 @@
+<Shito0805Dto>
+  <SHEET>
+    <KINGAKU_GK>3377</KINGAKU_GK>
+  </SHEET>
+</Shito0805Dto>

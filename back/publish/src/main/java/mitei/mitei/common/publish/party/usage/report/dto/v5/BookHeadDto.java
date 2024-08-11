@@ -12,7 +12,6 @@ public class BookHeadDto implements Serializable { // NOPMD DataClass
     /** serialId */
     private static final long serialVersionUID = 1L;
 
-    // <VERSION>20191220</VERSION>
     /** バージョン番号 */
     @JacksonXmlProperty(localName = "VERSION")
     private String version;
@@ -25,7 +24,6 @@ public class BookHeadDto implements Serializable { // NOPMD DataClass
     @JacksonXmlProperty(localName = "APP_FLG")
     private String flgApli;
 
-    // <HONBU_FLG>0</HONBU_FLG>
     /** 本部フラグ */
     @JacksonXmlProperty(localName = "HONBU_FLG")
     private String flgHonbu;
