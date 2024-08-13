@@ -1,6 +1,5 @@
 package mitei.mitei.common.publish.party.usage.report.dto.v5;
 
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.nio.charset.Charset;
@@ -34,7 +33,7 @@ class AllShitoBookTest {
         Path pathAnswer = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(), "dto/publish/SITO_LEAST.xml");
         String readText = Files.readString(pathAnswer, Charset.forName("windows-31j"));
 
-        AllShitoBook allShitoBook = xmlMapper.readValue(readText, new TypeReference<AllShitoBook>() {
+        AllShitoBook allShitoBook = xmlMapper.readValue(readText, new TypeReference<>() {
         });
 
         // <HEAD>
@@ -155,15 +154,21 @@ class AllShitoBookTest {
         xmlMapper.enable(SerializationFeature.INDENT_OUTPUT);
 
         Path pathRead = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(), "dto/publish/SITO.xml");
-        String readText = Files.readString(pathRead, Charset.forName("windows-31j"));
+        String readText =Files.readString(pathRead, Charset.forName("windows-31j"));
 
-        AllShitoBook allShitoBook = xmlMapper.readValue(readText, new TypeReference<AllShitoBook>() {
+        AllShitoBook allShitoBook = xmlMapper.readValue(readText, new TypeReference<>() {
         });
 
         // 読んだデータを使ってデータ吐き出し
         Path pathWriter = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(), "evidence/REWRITE_SITO.xml");
-        Files.writeString(pathWriter, xmlMapper.writeValueAsString(allShitoBook));
+        String writeText = xmlMapper.writeValueAsString(allShitoBook);
+        Files.writeString(pathWriter,writeText );
+        
+        Files.writeString(Paths.get("c:/temp/SITO.xml"),readText.replaceAll("\t", "  "));
 
-        // MEMO:吐き出したデータは再度公式ソフトウェアで読み込みできました
+        //テストに比較が必要なので無理やり比較
+        assertEquals("<?xml version=\"1.0\" encoding=\"Shift_JIS\"?>"+"\r\n"+writeText, readText.replaceAll("\t", "  "),"");
+        
+        // NOTE:吐き出したデータは再度公式ソフトウェアで読み込みできました(こっちが大事)
     }
 }

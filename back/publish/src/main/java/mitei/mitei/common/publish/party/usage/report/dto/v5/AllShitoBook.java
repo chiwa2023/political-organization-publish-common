@@ -9,7 +9,7 @@ import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
  * 政党交付金使途報告書全Dto
  */
 @JacksonXmlRootElement(localName = "BOOK")
-public class AllShitoBook implements Serializable {
+public class AllShitoBook implements Serializable { // NOPMD DataClass
 
     /** serialId */
     private static final long serialVersionUID = 1L;

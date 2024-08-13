@@ -5,7 +5,7 @@ import java.io.Serializable;
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
 
 /**
- * 政党交付金使途報告書様式8の2
+ * 政党交付金使途報告書様式8の3
  */
 public class Sheet0803Dto implements Serializable {
 

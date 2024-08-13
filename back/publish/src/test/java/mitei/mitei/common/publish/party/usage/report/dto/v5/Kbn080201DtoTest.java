@@ -30,7 +30,7 @@ class Kbn080201DtoTest {
 
         CreateShito0802Kbn01WrapperLogic createShito0802Kbn01WrapperLogic = new CreateShito0802Kbn01WrapperLogic();
 
-        Kbn080201Dto Kbn080201Dto = createShito0802Kbn01WrapperLogic.getFinalDto();
+        Kbn080201Dto Kbn080201Dto = createShito0802Kbn01WrapperLogic.getDto();
 
         // 他のDtoをテストに介在させないためにここでは特別にしているが、業務的にはきわめて望ましくない触り方
         Kbn080201Dto.getList().get(0).setAmount(12345L); // NOPMD
