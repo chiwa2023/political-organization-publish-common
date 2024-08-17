@@ -23,7 +23,7 @@ public class Sheet0806Dto implements Serializable { // NOPMD DataClass
 
     /** 基金目的 */
     @JacksonXmlProperty(localName = "MOKUTEKI")
-    private String fundsPuropose = "";
+    private String fundsPurpose = "";
 
     /** 本年合計 */
     @JacksonXmlProperty(localName = "GOUKEI_GK")
@@ -105,17 +105,17 @@ public class Sheet0806Dto implements Serializable { // NOPMD DataClass
      *
      * @return 基金目的
      */
-    public String getFundsPuropose() {
-        return fundsPuropose;
+    public String getFundsPurpose() {
+        return fundsPurpose;
     }
 
     /**
      * 基金目的を設定する
      *
-     * @param fundsPuropose 基金目的
+     * @param fundsPurpose 基金目的
      */
-    public void setFundsPuropose(final String fundsPuropose) {
-        this.fundsPuropose = fundsPuropose;
+    public void setFundsPurpose(final String fundsPurpose) {
+        this.fundsPurpose = fundsPurpose;
     }
 
     /**

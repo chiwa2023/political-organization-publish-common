@@ -65,7 +65,7 @@ class Kbn080410DtoTest {
 
         sheet1.setHimoku("費目");
         sheet1.setSonotaAmount(500L);
-        sheet1.setSonotaKofukin("300");
+        sheet1.setSonotaKoufukin("300");
         sheet1.setSonotaMyFunds("200");
         sheet1.setAmountAll(5000L);
         sheet1.setAmountAllKoufukin(3000L);

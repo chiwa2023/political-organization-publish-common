@@ -1,6 +1,5 @@
 package mitei.mitei.common.publish.party.usage.report.logic.validate.sheet0806;
 
-import static org.junit.Assert.fail;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
@@ -52,8 +51,6 @@ class ValidateSheet0806LogicTest {
         sheet0806DtoAnswwer.setTotalIncrease(9898L);
         assertEquals(false, logic.check(sheet0806DtoAnswwer), "増減値が異なることを検出");
         
-
-        fail("Not yet implemented");
     }
 
     @Test

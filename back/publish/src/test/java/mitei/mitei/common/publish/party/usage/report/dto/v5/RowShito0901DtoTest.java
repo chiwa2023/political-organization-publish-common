@@ -36,8 +36,8 @@ class RowShito0901DtoTest {
         row.setItemName("備品・消耗品費");
         row.setDigest("aaaaa");
         row.setAmount(20000L);
-        row.setAccralDate("R4/12/1");
-        row.setExplain("相手が××だった");
+        row.setAccrualDate("R4/12/1");
+        row.setExplainText("相手が××だった");
 
         // XML生成
         String xml = xmlMapper.writeValueAsString(row);

@@ -27,7 +27,7 @@ public class Sheet0804Dto implements Serializable { // NOPMD DataClass
 
     /** その他交付金合計 */
     @JacksonXmlProperty(localName = "KOUFU_SONOTA_GK")
-    private String sonotaKofukin;
+    private String sonotaKoufukin;
 
     /** その他政党基金合計 */
     @JacksonXmlProperty(localName = "KIKIN_SONOTA_GK")
@@ -91,17 +91,17 @@ public class Sheet0804Dto implements Serializable { // NOPMD DataClass
      *
      * @return その他交付金合計
      */
-    public String getSonotaKofukin() {
-        return sonotaKofukin;
+    public String getSonotaKoufukin() {
+        return sonotaKoufukin;
     }
 
     /**
      * その他交付金合計を設定する
      *
-     * @param sonotaKofukin その他交付金合計
+     * @param sonotaKoufukin その他交付金合計
      */
-    public void setSonotaKofukin(final String sonotaKofukin) {
-        this.sonotaKofukin = sonotaKofukin;
+    public void setSonotaKoufukin(final String sonotaKoufukin) {
+        this.sonotaKoufukin = sonotaKoufukin;
     }
 
     /**

@@ -38,7 +38,7 @@ class Shito0807DtoTest {
         sheet.setShibuDocument(0);
         sheet.setGoverningDocument(0);
         sheet.setFlgConfirm(1);
-        sheet.setAccuralDate("R5/11/30");
+        sheet.setAccrualDate("R5/11/30");
 
         shito0807Dto.setSheet0807Dto(sheet);
 
