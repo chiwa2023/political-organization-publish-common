@@ -48,7 +48,7 @@ class Kbn080201DtoTest {
         String xml = xmlMapper.writeValueAsString(Kbn080201Dto);
 
         // 入力なし
-        Path pathAnswer = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(), "dto/publish/kbn_080201_dto.txt");
+        Path pathAnswer = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(), "dto/publish/party_usage/kbn_080201_dto.txt");
         String answer = Files.readString(pathAnswer);
 
         assertEquals(answer, xml, "データ入力なし時の比較");

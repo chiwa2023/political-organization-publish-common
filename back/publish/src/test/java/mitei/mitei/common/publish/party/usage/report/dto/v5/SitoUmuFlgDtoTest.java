@@ -29,7 +29,7 @@ class SitoUmuFlgDtoTest {
 
         // 入力なし
         Path pathAnswer0 = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(),
-                "dto/publish/shito_umu_flg.txt");
+                "dto/publish/party_usage/shito_umu_flg.txt");
         String answer0 = Files.readString(pathAnswer0);
 
         //ここでは入力された値がそのまま出ることしかチェックしない。実際には全体を統括する

@@ -38,7 +38,7 @@ class KaikeiShishutuKijunDtoTest {
         String xml = xmlMapper.writeValueAsString(kijunDto);
 
         // 入力なし
-        Path pathAnswer = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(), "dto/publish/kaikei_shishutu_kijun_dto.txt");
+        Path pathAnswer = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(), "dto/publish/party_usage/kaikei_shishutu_kijun_dto.txt");
         String answer = Files.readString(pathAnswer);
 
         assertEquals(answer, xml, "常に金額入力");

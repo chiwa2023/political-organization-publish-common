@@ -66,7 +66,7 @@ class Sheet0806DtoTest {
         // XML生成
         String xml = xmlMapper.writeValueAsString(sheet);
 
-        Path pathAnswer = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(), "dto/publish/sheet_0806_dto.txt");
+        Path pathAnswer = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(), "dto/publish/party_usage/sheet_0806_dto.txt");
         String answer = Files.readString(pathAnswer);
 
         assertEquals(answer, xml, "行データなし");

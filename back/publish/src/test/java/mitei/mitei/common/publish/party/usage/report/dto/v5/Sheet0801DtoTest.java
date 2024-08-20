@@ -32,7 +32,7 @@ class Sheet0801DtoTest {
         Sheet0801Dto sheet0 = new Sheet0801Dto();
 
         Path pathAnswer0 = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(),
-                "dto/publish/sheet_0801_none.txt");
+                "dto/publish/party_usage/sheet_0801_none.txt");
         String answer0 = Files.readString(pathAnswer0);
 
         // XML生成
@@ -42,7 +42,7 @@ class Sheet0801DtoTest {
 
         // 入力あり
         Path pathAnswer1 = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(),
-                "dto/publish/sheet_0801_list.txt");
+                "dto/publish/party_usage/sheet_0801_list.txt");
         String answer1 = Files.readString(pathAnswer1);
 
         Sheet0801Dto sheet1 = new Sheet0801Dto();

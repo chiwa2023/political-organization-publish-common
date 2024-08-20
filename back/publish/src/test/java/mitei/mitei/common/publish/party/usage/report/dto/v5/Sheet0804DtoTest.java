@@ -30,7 +30,7 @@ class Sheet0804DtoTest {
         //何もセットしないとき
         Sheet0804Dto sheet0 = new Sheet0804Dto();
         
-        Path pathAnswer0 = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(), "dto/publish/sheet_0804_none.txt");
+        Path pathAnswer0 = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(), "dto/publish/party_usage/sheet_0804_none.txt");
         String answer0 = Files.readString(pathAnswer0);
 
         // XML生成
@@ -66,7 +66,7 @@ class Sheet0804DtoTest {
         // XML生成
         String xml1 = xmlMapper.writeValueAsString(sheet1);
 
-        Path pathAnswer1 = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(), "dto/publish/sheet_0804_list.txt");
+        Path pathAnswer1 = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(), "dto/publish/party_usage/sheet_0804_list.txt");
         String answer1 = Files.readString(pathAnswer1);
 
         assertEquals(answer1, xml1,"1行データが入ったシート");

@@ -46,14 +46,14 @@ class Shito0804DtoTest {
         String xml0 = xmlMapper.writeValueAsString(shito0);
 
         Path pathAnswer0 = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(),
-                "dto/publish/shito_0804_dto_none.txt");
+                "dto/publish/party_usage/shito_0804_dto_none.txt");
         String answer0 = Files.readString(pathAnswer0);
 
         assertEquals(answer0, xml0, "データ入力なし時の比較");
 
         // 入力あり
         Path pathAnswer1 = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(),
-                "dto/publish/shito_0804_dto_list.txt");
+                "dto/publish/party_usage/shito_0804_dto_list.txt");
         String answer1 = Files.readString(pathAnswer1);
 
         // 1行データあり

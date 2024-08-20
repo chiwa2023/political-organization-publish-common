@@ -27,7 +27,7 @@ class RowShito0805DtoTest {
         xmlMapper.setSerializationInclusion(Include.ALWAYS);
         xmlMapper.enable(SerializationFeature.INDENT_OUTPUT);
 
-        Path pathAnswer = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(), "dto/publish/row_shito_0805.txt");
+        Path pathAnswer = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(), "dto/publish/party_usage/row_shito_0805.txt");
         String answer = Files.readString(pathAnswer);
 
         RowShito0805Dto row = new RowShito0805Dto();

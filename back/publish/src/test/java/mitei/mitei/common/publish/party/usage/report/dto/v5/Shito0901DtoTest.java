@@ -33,7 +33,7 @@ class Shito0901DtoTest {
         String xml0 = xmlMapper.writeValueAsString(shito0);
 
         Path pathAnswer0 = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(),
-                "dto/publish/shito_0901_dto_none.txt");
+                "dto/publish/party_usage/shito_0901_dto_none.txt");
         String answer0 = Files.readString(pathAnswer0);
 
         assertEquals(answer0, xml0, "入力なしシート");
@@ -54,7 +54,7 @@ class Shito0901DtoTest {
         String xml1 = xmlMapper.writeValueAsString(shito1);
 
         Path pathAnswer1 = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(),
-                "dto/publish/shito_0901_dto_list.txt");
+                "dto/publish/party_usage/shito_0901_dto_list.txt");
         String answer1 = Files.readString(pathAnswer1);
 
         assertEquals(answer1, xml1, "入力ありシート");

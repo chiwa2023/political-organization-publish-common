@@ -34,7 +34,7 @@ class Sheet0805DtoTest {
         String xml0 = xmlMapper.writeValueAsString(sheet0);
 
         Path pathAnswer0 = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(),
-                "dto/publish/sheet_0805_dto_none.txt");
+                "dto/publish/party_usage/sheet_0805_dto_none.txt");
         String answer0 = Files.readString(pathAnswer0);
 
         assertEquals(answer0, xml0, "行データなし");
@@ -57,7 +57,7 @@ class Sheet0805DtoTest {
         String xml1 = xmlMapper.writeValueAsString(sheet1);
 
         Path pathAnswer1 = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(),
-                "dto/publish/sheet_0805_dto_list.txt");
+                "dto/publish/party_usage/sheet_0805_dto_list.txt");
         String answer1 = Files.readString(pathAnswer1);
 
         assertEquals(answer1, xml1, "行データあり");

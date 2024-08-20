@@ -70,7 +70,7 @@ class Shito0806DtoTest {
         String xml = xmlMapper.writeValueAsString(shito);
 
         Path pathAnswer = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(),
-                "dto/publish/shito_0806_dto.txt");
+                "dto/publish/party_usage/shito_0806_dto.txt");
         String answer = Files.readString(pathAnswer);
         
         assertEquals(answer, xml, "最低1枚はシートが存在");

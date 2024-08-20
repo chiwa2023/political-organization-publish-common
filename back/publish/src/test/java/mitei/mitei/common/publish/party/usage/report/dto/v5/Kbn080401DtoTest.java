@@ -30,7 +30,7 @@ class Kbn080401DtoTest {
 
         // 入力なし
         Path pathAnswer0 = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(),
-                "dto/publish/kbn_080401_dto_none.txt");
+                "dto/publish/party_usage/kbn_080401_dto_none.txt");
         String answer0 = Files.readString(pathAnswer0);
 
         Kbn080401Dto kbn0 = new Kbn080401Dto();
@@ -43,7 +43,7 @@ class Kbn080401DtoTest {
 
         // 入力あり
         Path pathAnswer1 = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(),
-                "dto/publish/kbn_080401_dto_list.txt");
+                "dto/publish/party_usage/kbn_080401_dto_list.txt");
         String answer1 = Files.readString(pathAnswer1);
 
         Kbn080401Dto kbn1 = new Kbn080401Dto();

@@ -50,7 +50,7 @@ class Shito0801DtoTest {
         String xml0 = xmlMapper.writeValueAsString(shito0);
 
         Path pathAnswer0 = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(),
-                "dto/publish/shito_0801_dto.txt");
+                "dto/publish/party_usage/shito_0801_dto.txt");
         String answer0 = Files.readString(pathAnswer0);
 
         assertEquals(answer0, xml0, "1行データが入ったシート");

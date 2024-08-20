@@ -29,7 +29,7 @@ class Shito0802DtoTest {
         xmlMapper.enable(SerializationFeature.INDENT_OUTPUT);
 
         // 入力なし
-        Path pathAnswer = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(), "dto/publish/shito_0802_dto.txt");
+        Path pathAnswer = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(), "dto/publish/party_usage/shito_0802_dto.txt");
         String answer = Files.readString(pathAnswer);
 
         Sheet0802Dto sheet = new Sheet0802Dto();

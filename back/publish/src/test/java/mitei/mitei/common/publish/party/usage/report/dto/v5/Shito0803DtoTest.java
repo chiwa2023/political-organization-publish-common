@@ -29,7 +29,7 @@ class Shito0803DtoTest {
 
         // 入力なし
         Path pathAnswer0 = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(),
-                "dto/publish/shito_0803_dto_none.txt");
+                "dto/publish/party_usage/shito_0803_dto_none.txt");
         String answer0 = Files.readString(pathAnswer0);
 
         Shito0803Dto shito0 = new Shito0803Dto();
@@ -39,7 +39,7 @@ class Shito0803DtoTest {
 
         // 入力なし
         Path pathAnswer1 = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(),
-                "dto/publish/shito_0803_dto_list.txt");
+                "dto/publish/party_usage/shito_0803_dto_list.txt");
         String answer1 = Files.readString(pathAnswer1);
 
         Shito0803Dto shito1 = new Shito0803Dto();

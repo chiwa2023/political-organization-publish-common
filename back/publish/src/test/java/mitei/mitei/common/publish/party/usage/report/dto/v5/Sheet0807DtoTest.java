@@ -41,7 +41,7 @@ class Sheet0807DtoTest {
         String xml = xmlMapper.writeValueAsString(sheet);
         
         Path pathAnswer = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(),
-                "dto/publish/sheet_0807_dto.txt");
+                "dto/publish/party_usage/sheet_0807_dto.txt");
         String answer = Files.readString(pathAnswer);
         
         assertEquals(answer, xml, "常にデータが入っている");

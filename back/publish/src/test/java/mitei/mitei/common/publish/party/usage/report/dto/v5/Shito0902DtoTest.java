@@ -35,7 +35,7 @@ class Shito0902DtoTest {
         // XML生成
         String xml0 = xmlMapper.writeValueAsString(shito0);
         
-        Path pathAnswer0 = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(), "dto/publish/shito_0902_dto_none.txt");
+        Path pathAnswer0 = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(), "dto/publish/party_usage/shito_0902_dto_none.txt");
         String answer0 = Files.readString(pathAnswer0);
 
         assertEquals(answer0, xml0,"入力なしシート");
@@ -49,7 +49,7 @@ class Shito0902DtoTest {
         shito1.getList().add(sheet1);
         
         Path pathAnswer1 = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(),
-                "dto/publish/shito_0902_dto_list.txt");
+                "dto/publish/party_usage/shito_0902_dto_list.txt");
         String answer1 = Files.readString(pathAnswer1);
 
         // XML生成

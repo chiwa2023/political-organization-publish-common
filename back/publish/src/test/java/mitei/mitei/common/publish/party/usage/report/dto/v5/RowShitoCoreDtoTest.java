@@ -27,7 +27,7 @@ class RowShitoCoreDtoTest {
         xmlMapper.setSerializationInclusion(Include.ALWAYS);
         xmlMapper.enable(SerializationFeature.INDENT_OUTPUT);
 
-        Path pathAnswer = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(), "dto/publish/row_shito_core.txt");
+        Path pathAnswer = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(), "dto/publish/party_usage/row_shito_core.txt");
         String answer = Files.readString(pathAnswer); // SUPPRESS CHECKSTYLE MethodArgumentCouldBeFinal
 
         RowShitoCoreDto row0 = new RowShitoCoreDto();

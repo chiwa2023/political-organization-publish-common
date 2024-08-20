@@ -28,7 +28,7 @@ class BookHeadDtoTest {
         xmlMapper.enable(SerializationFeature.INDENT_OUTPUT);
 
         // 入力なし
-        Path pathAnswer0 = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(), "dto/publish/book_header.txt");
+        Path pathAnswer0 = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(), "dto/publish/party_usage/book_header.txt");
         String answer0 = Files.readString(pathAnswer0);
 
         // ほぼ固定値なのでテストは１種類でOK(フラグがIntegerになるかどうか)

@@ -30,7 +30,7 @@ class AllShitoBookTest {
         xmlMapper.setSerializationInclusion(Include.ALWAYS);
         xmlMapper.enable(SerializationFeature.INDENT_OUTPUT);
 
-        Path pathAnswer = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(), "dto/publish/SITO_LEAST.xml");
+        Path pathAnswer = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(), "dto/publish/party_usage/SITO_LEAST.xml");
         String readText = Files.readString(pathAnswer, Charset.forName("windows-31j"));
 
         AllShitoBook allShitoBook = xmlMapper.readValue(readText, new TypeReference<>() {
@@ -153,7 +153,7 @@ class AllShitoBookTest {
         xmlMapper.setSerializationInclusion(Include.ALWAYS);
         xmlMapper.enable(SerializationFeature.INDENT_OUTPUT);
 
-        Path pathRead = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(), "dto/publish/SITO.xml");
+        Path pathRead = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(), "dto/publish/party_usage/SITO.xml");
         String readText =Files.readString(pathRead, Charset.forName("windows-31j"));
 
         AllShitoBook allShitoBook = xmlMapper.readValue(readText, new TypeReference<>() {

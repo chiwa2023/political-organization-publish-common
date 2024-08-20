@@ -46,7 +46,7 @@ class Shito0807DtoTest {
         String xml = xmlMapper.writeValueAsString(shito0807Dto);
 
         Path pathAnswer = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(),
-                "dto/publish/shito_0807_dto.txt");
+                "dto/publish/party_usage/shito_0807_dto.txt");
         String answer = Files.readString(pathAnswer);
 
         assertEquals(answer, xml, "入力ありデータ");

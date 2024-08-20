@@ -30,7 +30,7 @@ class Sheet0902DtoTest {
         Sheet0902Dto sheet0 = new Sheet0902Dto();
 
         Path pathAnswer0 = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(),
-                "dto/publish/sheet_0902_none.txt");
+                "dto/publish/party_usage/sheet_0902_none.txt");
         String answer0 = Files.readString(pathAnswer0);
 
         // XML生成
@@ -44,7 +44,7 @@ class Sheet0902DtoTest {
         sheet1.setDantaiName("ちゃらんぽらん政治団体");
 
         Path pathAnswer1 = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(),
-                "dto/publish/sheet_0902_list.txt");
+                "dto/publish/party_usage/sheet_0902_list.txt");
         String answer1 = Files.readString(pathAnswer1);
 
         // XML生成
