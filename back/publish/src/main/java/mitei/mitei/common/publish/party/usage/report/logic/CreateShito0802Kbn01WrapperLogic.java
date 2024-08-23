@@ -2,6 +2,7 @@ package mitei.mitei.common.publish.party.usage.report.logic;
 
 import java.util.List;
 
+import mitei.mitei.common.publish.party.usage.report.dto.v5.ConstantsKbn080201Dto;
 import mitei.mitei.common.publish.party.usage.report.dto.v5.Kbn080201Dto;
 import mitei.mitei.common.publish.party.usage.report.dto.v5.RowShito0802Dto;
 import mitei.mitei.common.publish.party.usage.report.dto.v5.Sheet0806Dto;
@@ -15,48 +16,6 @@ public class CreateShito0802Kbn01WrapperLogic {
 
     /** カプセル化した様式08の2の区分1 */
     private final Kbn080201Dto kbn080201Dto = new Kbn080201Dto();
-
-    /** 1行目の項目名称 */
-    private static final String ITEM_NAME1 = "政党交付金（支部政党交付金）の総額　--------------------------------------------①";
-    /** 2行目の項目名称 */
-    private static final String ITEM_NAME2 = "前年末政党基金（支部基金）残高　------------------------------------------------②";
-    /** 3行目の項目名称 */
-    private static final String ITEM_NAME3 = "政党交付金（支部政党交付金）による支出総額（④＋⑤）　--------------------------③";
-    /** 4行目の項目名称 */
-    private static final String ITEM_NAME4 = "　政党交付金（支部政党交付金）支出充当額総額　----------------------------------④";// 段下げのため最初の空白はわざとつけている
-    /** 5行目の項目名称 */
-    private static final String ITEM_NAME5 = "　政党基金（支部基金）支出充当額総額　------------------------------------------⑤";// 段下げのため最初の空白はわざとつけている
-    /** 6行目の項目名称 */
-    private static final String ITEM_NAME6 = "政党基金（支部基金）の積立に充てるために取り崩した政党基金（支部基金）の額　----⑥";
-    /** 7行目の項目名称 */
-    private static final String ITEM_NAME7 = "政党基金（支部基金）積立総額（果実を含む。）　----------------------------------⑦";
-    /** 8行目の項目名称 */
-    private static final String ITEM_NAME8 = "　政党基金（支部基金）の運用により収受した果実の総額　";// 段下げのため最初の空白はわざとつけている
-    /** 9行目の項目名称 */
-    private static final String ITEM_NAME9 = "本年末等政党基金（支部基金）残高（②－⑤－⑥＋⑦）　----------------------------⑧";
-    /** 10行目の項目名称 */
-    private static final String ITEM_NAME10 = "　　（備　　　　　考）　　　　　　　　　　　　　　　　　　　　　　　①－③＋②－⑧";
-
-    /** 1行目の行番号 */
-    private static final int POS01 = 1;
-    /** 2行目の行番号 */
-    private static final int POS02 = 2;
-    /** 3行目の行番号 */
-    private static final int POS03 = 3;
-    /** 4行目の行番号 */
-    private static final int POS04 = 4;
-    /** 5行目の行番号 */
-    private static final int POS05 = 5;
-    /** 6行目の行番号 */
-    private static final int POS06 = 6;
-    /** 7行目の行番号 */
-    private static final int POS07 = 7;
-    /** 8行目の行番号 */
-    private static final int POS08 = 8;
-    /** 9行目の行番号 */
-    private static final int POS09 = 9;
-    /** 10行目の行番号 */
-    private static final int POS10 = 10;
 
     /** 1項目目の計算値(政党交付金（支部政党交付金）の総額) */
     private Long value1 = 0L;
@@ -84,16 +43,16 @@ public class CreateShito0802Kbn01WrapperLogic {
      */
     public CreateShito0802Kbn01WrapperLogic() {
         List<RowShito0802Dto> list = kbn080201Dto.getList();
-        list.add(this.createDto(POS01, ITEM_NAME1));
-        list.add(this.createDto(POS02, ITEM_NAME2));
-        list.add(this.createDto(POS03, ITEM_NAME3));
-        list.add(this.createDto(POS04, ITEM_NAME4));
-        list.add(this.createDto(POS05, ITEM_NAME5));
-        list.add(this.createDto(POS06, ITEM_NAME6));
-        list.add(this.createDto(POS07, ITEM_NAME7));
-        list.add(this.createDto(POS08, ITEM_NAME8));
-        list.add(this.createDto(POS09, ITEM_NAME9));
-        list.add(this.createDto(POS10, ITEM_NAME10));
+        list.add(this.createDto(ConstantsKbn080201Dto.POS01, ConstantsKbn080201Dto.ITEM_NAME1));
+        list.add(this.createDto(ConstantsKbn080201Dto.POS02, ConstantsKbn080201Dto.ITEM_NAME2));
+        list.add(this.createDto(ConstantsKbn080201Dto.POS03, ConstantsKbn080201Dto.ITEM_NAME3));
+        list.add(this.createDto(ConstantsKbn080201Dto.POS04, ConstantsKbn080201Dto.ITEM_NAME4));
+        list.add(this.createDto(ConstantsKbn080201Dto.POS05, ConstantsKbn080201Dto.ITEM_NAME5));
+        list.add(this.createDto(ConstantsKbn080201Dto.POS06, ConstantsKbn080201Dto.ITEM_NAME6));
+        list.add(this.createDto(ConstantsKbn080201Dto.POS07, ConstantsKbn080201Dto.ITEM_NAME7));
+        list.add(this.createDto(ConstantsKbn080201Dto.POS08, ConstantsKbn080201Dto.ITEM_NAME8));
+        list.add(this.createDto(ConstantsKbn080201Dto.POS09, ConstantsKbn080201Dto.ITEM_NAME9));
+        list.add(this.createDto(ConstantsKbn080201Dto.POS10, ConstantsKbn080201Dto.ITEM_NAME10));
     }
 
     /**
@@ -118,43 +77,43 @@ public class CreateShito0802Kbn01WrapperLogic {
         boolean isCorrect = true;
 
         // 01
-        if (!value1.equals(list.get(POS01 - 1).getAmount())) {
+        if (!value1.equals(list.get(ConstantsKbn080201Dto.POS01 - 1).getAmount())) {
             isCorrect = false;
         }
         // 02
-        if (!value2.equals(list.get(POS02 - 1).getAmount())) {
+        if (!value2.equals(list.get(ConstantsKbn080201Dto.POS02 - 1).getAmount())) {
             isCorrect = false;
         }
         // 03
-        if (!value3.equals(list.get(POS03 - 1).getAmount())) {
+        if (!value3.equals(list.get(ConstantsKbn080201Dto.POS03 - 1).getAmount())) {
             isCorrect = false;
         }
         // 04
-        if (!value4.equals(list.get(POS04 - 1).getAmount())) {
+        if (!value4.equals(list.get(ConstantsKbn080201Dto.POS04 - 1).getAmount())) {
             isCorrect = false;
         }
         // 05
-        if (!value5.equals(list.get(POS05 - 1).getAmount())) {
+        if (!value5.equals(list.get(ConstantsKbn080201Dto.POS05 - 1).getAmount())) {
             isCorrect = false;
         }
         // 06
-        if (!value6.equals(list.get(POS06 - 1).getAmount())) {
+        if (!value6.equals(list.get(ConstantsKbn080201Dto.POS06 - 1).getAmount())) {
             isCorrect = false;
         }
         // 07
-        if (!value7.equals(list.get(POS07 - 1).getAmount())) {
+        if (!value7.equals(list.get(ConstantsKbn080201Dto.POS07 - 1).getAmount())) {
             isCorrect = false;
         }
         // 08
-        if (!value8.equals(list.get(POS08 - 1).getAmount())) {
+        if (!value8.equals(list.get(ConstantsKbn080201Dto.POS08 - 1).getAmount())) {
             isCorrect = false;
         }
         // 09
-        if (!value9.equals(list.get(POS09 - 1).getAmount())) {
+        if (!value9.equals(list.get(ConstantsKbn080201Dto.POS09 - 1).getAmount())) {
             isCorrect = false;
         }
         // 10
-        if (!value10.equals(list.get(POS10 - 1).getAmount())) {
+        if (!value10.equals(list.get(ConstantsKbn080201Dto.POS10 - 1).getAmount())) {
             isCorrect = false;
         }
 
@@ -188,25 +147,25 @@ public class CreateShito0802Kbn01WrapperLogic {
 
         List<RowShito0802Dto> list = kbn080201Dto.getList();
         // 01
-        list.get(POS01 - 1).setAmount(value1);
+        list.get(ConstantsKbn080201Dto.POS01 - 1).setAmount(value1);
         // 02
-        list.get(POS02 - 1).setAmount(value2);
+        list.get(ConstantsKbn080201Dto.POS02 - 1).setAmount(value2);
         // 03
-        list.get(POS03 - 1).setAmount(value3);
+        list.get(ConstantsKbn080201Dto.POS03 - 1).setAmount(value3);
         // 04
-        list.get(POS04 - 1).setAmount(value4);
+        list.get(ConstantsKbn080201Dto.POS04 - 1).setAmount(value4);
         // 05
-        list.get(POS05 - 1).setAmount(value5);
+        list.get(ConstantsKbn080201Dto.POS05 - 1).setAmount(value5);
         // 06 直接入力
-        list.get(POS06 - 1).setAmount(value6);
+        list.get(ConstantsKbn080201Dto.POS06 - 1).setAmount(value6);
         // 07
-        list.get(POS07 - 1).setAmount(value7);
+        list.get(ConstantsKbn080201Dto.POS07 - 1).setAmount(value7);
         // 08
-        list.get(POS08 - 1).setAmount(value8);
+        list.get(ConstantsKbn080201Dto.POS08 - 1).setAmount(value8);
         // 09
-        list.get(POS09 - 1).setAmount(value9);
+        list.get(ConstantsKbn080201Dto.POS09 - 1).setAmount(value9);
         // 10
-        list.get(POS10 - 1).setAmount(value10);
+        list.get(ConstantsKbn080201Dto.POS10 - 1).setAmount(value10);
 
         return kbn080201Dto;
     }

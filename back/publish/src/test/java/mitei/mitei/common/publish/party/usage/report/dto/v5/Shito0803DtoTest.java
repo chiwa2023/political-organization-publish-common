@@ -70,7 +70,7 @@ class Shito0803DtoTest {
         shito1.getSheet0803Dto().setTotalKeihiBikou("eeee");
         shito1.getSheet0803Dto().setTotalSoshikiAll(70001L);
         shito1.getSheet0803Dto().setTotalSoshikiJutoKoufukin(70002L);
-        shito1.getSheet0803Dto().setTotalSoshikiutoMyFunds(70003L);
+        shito1.getSheet0803Dto().setTotalSoshikiJutoMyFunds(70003L);
         shito1.getSheet0803Dto().setTotalSoshikiBikou("ffff");
         shito1.getSheet0803Dto().setTotalSenkyoAll(80001L);
         shito1.getSheet0803Dto().setTotalSenkyoJutoKoufukin(80002L);
@@ -97,7 +97,7 @@ class Shito0803DtoTest {
         shito1.getSheet0803Dto().setTotalSonotaJigyouJutoMyFunds(130003L);
         shito1.getSheet0803Dto().setTotalSonotaJigyouBikou("jjjj");
         shito1.getSheet0803Dto().setTotalChousaAll(140001L);
-        shito1.getSheet0803Dto().setTotaChousaJutoKoufukin(140002L);
+        shito1.getSheet0803Dto().setTotalChousaJutoKoufukin(140002L);
         shito1.getSheet0803Dto().setTotalChousaJutoMyFunds(140003L);
         shito1.getSheet0803Dto().setTotalChousaBikou("kkkk");
         shito1.getSheet0803Dto().setTotalKifuAll(150001L);

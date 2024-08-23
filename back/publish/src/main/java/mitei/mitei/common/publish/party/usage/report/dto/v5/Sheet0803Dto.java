@@ -118,7 +118,7 @@ public class Sheet0803Dto implements Serializable {
 
     /** 組織合計充当政党基金から */
     @JacksonXmlProperty(localName = "SOSIKI2_GK")
-    private Long totalSoshikiutoMyFunds = 0L;
+    private Long totalSoshikiJutoMyFunds = 0L;
 
     /** 組織備考 */
     @JacksonXmlProperty(localName = "SOSIKI_BIKOU")
@@ -226,7 +226,7 @@ public class Sheet0803Dto implements Serializable {
 
     /** 調査合計充当交付金から */
     @JacksonXmlProperty(localName = "CYOUSA1_GK")
-    private Long totaChousaJutoKoufukin = 0L;
+    private Long totalChousaJutoKoufukin = 0L;
 
     /** 調査合計充当政党基金から */
     @JacksonXmlProperty(localName = "CYOUSA2_GK")
@@ -773,17 +773,17 @@ public class Sheet0803Dto implements Serializable {
      *
      * @return 組織合計充当政党基金から
      */
-    public Long getTotalSoshikiutoMyFunds() {
-        return totalSoshikiutoMyFunds;
+    public Long getTotalSoshikiJutoMyFunds() {
+        return totalSoshikiJutoMyFunds;
     }
 
     /**
      * 組織合計充当政党基金からを設定する
      *
-     * @param totalSoshikiutoMyFunds 組織合計充当政党基金から
+     * @param totalSoshikiJutoMyFunds 組織合計充当政党基金から
      */
-    public void setTotalSoshikiutoMyFunds(final Long totalSoshikiutoMyFunds) {
-        this.totalSoshikiutoMyFunds = totalSoshikiutoMyFunds;
+    public void setTotalSoshikiJutoMyFunds(final Long totalSoshikiJutoMyFunds) {
+        this.totalSoshikiJutoMyFunds = totalSoshikiJutoMyFunds;
     }
 
     /**
@@ -1259,17 +1259,17 @@ public class Sheet0803Dto implements Serializable {
      *
      * @return 調査合計充当交付金から
      */
-    public Long getTotaChousaJutoKoufukin() {
-        return totaChousaJutoKoufukin;
+    public Long getTotalChousaJutoKoufukin() {
+        return totalChousaJutoKoufukin;
     }
 
     /**
      * 調査合計充当交付金からを設定する
      *
-     * @param totaChousaJutoKoufukin 調査合計充当交付金から
+     * @param totalChousaJutoKoufukin 調査合計充当交付金から
      */
-    public void setTotaChousaJutoKoufukin(final Long totaChousaJutoKoufukin) {
-        this.totaChousaJutoKoufukin = totaChousaJutoKoufukin;
+    public void setTotalChousaJutoKoufukin(final Long totalChousaJutoKoufukin) {
+        this.totalChousaJutoKoufukin = totalChousaJutoKoufukin;
     }
 
     /**

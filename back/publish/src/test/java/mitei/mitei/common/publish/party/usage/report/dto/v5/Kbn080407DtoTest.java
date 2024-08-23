@@ -52,20 +52,20 @@ class Kbn080407DtoTest {
         RowShitoCoreDto row1 = new RowShitoCoreDto();
         row1.setRowNo(1);
         row1.setUsageItem("取引項目");
-        row1.setAmountAll("10000");
-        row1.setAmountKoufukin("4000");
-        row1.setAmountMyFunds("6000");
+        row1.setAmountAll(10000L);
+        row1.setAmountKoufukin(4000L);
+        row1.setAmountMyFunds(6000L);
         row1.setAccrualDate("R4/12/21");
         row1.setPayeeName("取引先名称");
         row1.setAddress("取引先住所");
         row1.setBikou("備考");
-        row1.setFlgCollectRecipt("1");
+        row1.setFlgCollectRecipt(1);
 
         Sheet0804Dto sheet1 = new Sheet0804Dto();
 
         sheet1.setHimoku("費目");
         sheet1.setSonotaAmount(500L);
-        sheet1.setSonotaKofukin("300");
+        sheet1.setSonotaKoufukin("300");
         sheet1.setSonotaMyFunds("200");
         sheet1.setAmountAll(5000L);
         sheet1.setAmountAllKoufukin(3000L);

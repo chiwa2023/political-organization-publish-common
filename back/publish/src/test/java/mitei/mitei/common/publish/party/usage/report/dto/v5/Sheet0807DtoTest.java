@@ -35,7 +35,7 @@ class Sheet0807DtoTest {
         sheet.setShibuDocument(4); //実際は0/1だがIntegerに設定したため適当な数値を入れる
         sheet.setGoverningDocument(5); //実際は0/1だがIntegerに設定したため適当な数値を入れる
         sheet.setFlgConfirm(0);
-        sheet.setAccuralDate("R5/11/30");
+        sheet.setAccrualDate("R5/11/30");
         
         // XML生成
         String xml = xmlMapper.writeValueAsString(sheet);

@@ -21,15 +21,15 @@ public class RowShitoCoreDto implements Serializable { // NOPMD DataClass
 
     /** 総支出額 */
     @JacksonXmlProperty(localName = "KINGAKU")
-    private String amountAll;
+    private Long amountAll;
 
     /** 政党交付金空の支出（充当） */
     @JacksonXmlProperty(localName = "KOUFU_JYUUTOU_GK")
-    private String amountKoufukin;
+    private Long amountKoufukin;
 
     /** 政党基金からの支出（充当） */
     @JacksonXmlProperty(localName = "KIKIN_JYUUTOU_GK")
-    private String amountMyFunds;
+    private Long amountMyFunds;
 
     /** 発生日 */
     @JacksonXmlProperty(localName = "DT")
@@ -49,7 +49,7 @@ public class RowShitoCoreDto implements Serializable { // NOPMD DataClass
 
     /** 領収書を徴し難い区分 */
     @JacksonXmlProperty(localName = "RYOUSYU")
-    private String flgCollectRecipt;
+    private Integer flgCollectRecipt;
 
     /**
      * 行番号を取得する
@@ -92,7 +92,7 @@ public class RowShitoCoreDto implements Serializable { // NOPMD DataClass
      *
      * @return 総支出額
      */
-    public String getAmountAll() {
+    public Long getAmountAll() {
         return amountAll;
     }
 
@@ -101,7 +101,7 @@ public class RowShitoCoreDto implements Serializable { // NOPMD DataClass
      *
      * @param amountAll 総支出額
      */
-    public void setAmountAll(final String amountAll) {
+    public void setAmountAll(final Long amountAll) {
         this.amountAll = amountAll;
     }
 
@@ -110,7 +110,7 @@ public class RowShitoCoreDto implements Serializable { // NOPMD DataClass
      *
      * @return 政党交付金空の支出（充当）
      */
-    public String getAmountKoufukin() {
+    public Long getAmountKoufukin() {
         return amountKoufukin;
     }
 
@@ -119,7 +119,7 @@ public class RowShitoCoreDto implements Serializable { // NOPMD DataClass
      *
      * @param amountKoufukin 政党交付金空の支出（充当）
      */
-    public void setAmountKoufukin(final String amountKoufukin) {
+    public void setAmountKoufukin(final Long amountKoufukin) {
         this.amountKoufukin = amountKoufukin;
     }
 
@@ -128,7 +128,7 @@ public class RowShitoCoreDto implements Serializable { // NOPMD DataClass
      *
      * @return 政党基金からの支出（充当）
      */
-    public String getAmountMyFunds() {
+    public Long getAmountMyFunds() {
         return amountMyFunds;
     }
 
@@ -137,7 +137,7 @@ public class RowShitoCoreDto implements Serializable { // NOPMD DataClass
      *
      * @param amountMyFunds 政党基金からの支出（充当）
      */
-    public void setAmountMyFunds(final String amountMyFunds) {
+    public void setAmountMyFunds(final Long amountMyFunds) {
         this.amountMyFunds = amountMyFunds;
     }
 
@@ -218,7 +218,7 @@ public class RowShitoCoreDto implements Serializable { // NOPMD DataClass
      *
      * @return 領収書を徴し難い区分
      */
-    public String getFlgCollectRecipt() {
+    public Integer getFlgCollectRecipt() {
         return flgCollectRecipt;
     }
 
@@ -227,7 +227,7 @@ public class RowShitoCoreDto implements Serializable { // NOPMD DataClass
      *
      * @param flgCollectRecipt 領収書を徴し難い区分
      */
-    public void setFlgCollectRecipt(final String flgCollectRecipt) {
+    public void setFlgCollectRecipt(final Integer flgCollectRecipt) {
         this.flgCollectRecipt = flgCollectRecipt;
     }
 

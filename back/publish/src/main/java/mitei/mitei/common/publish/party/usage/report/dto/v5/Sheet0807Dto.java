@@ -38,7 +38,7 @@ public class Sheet0807Dto implements Serializable { // NOPMD DataClass
 
     /** 宣誓日 */
     @JacksonXmlProperty(localName = "DT")
-    private String accuralDate = "";
+    private String accrualDate = "";
 
     /**
      * 領収書の写しを取得する
@@ -153,17 +153,17 @@ public class Sheet0807Dto implements Serializable { // NOPMD DataClass
      *
      * @return 宣誓日
      */
-    public String getAccuralDate() {
-        return accuralDate;
+    public String getAccrualDate() {
+        return accrualDate;
     }
 
     /**
      * 宣誓日を設定する
      *
-     * @param accuralDate 宣誓日
+     * @param accrualDate 宣誓日
      */
-    public void setAccuralDate(final String accuralDate) {
-        this.accuralDate = accuralDate;
+    public void setAccrualDate(final String accrualDate) {
+        this.accrualDate = accrualDate;
     }
 
 }

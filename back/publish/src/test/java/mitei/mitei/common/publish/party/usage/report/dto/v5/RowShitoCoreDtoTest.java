@@ -19,7 +19,8 @@ import com.fasterxml.jackson.databind.SerializationFeature;
  * RowShitoCore単体テスト
  */
 class RowShitoCoreDtoTest {
-
+    // CHECKSTYLE:OFF MagicNumber
+    
     @Test
     void testConvertXml() throws Exception {
 
@@ -37,11 +38,11 @@ class RowShitoCoreDtoTest {
         // 取引項目
         row0.setUsageItem("取引項目");
         // 総支出額
-        row0.setAmountAll("10000");
+        row0.setAmountAll(10000L);
         // 政党交付金空の支出（充当）
-        row0.setAmountKoufukin("4000");
+        row0.setAmountKoufukin(4000L);
         // 政党基金からの支出（充当）
-        row0.setAmountMyFunds("6000");
+        row0.setAmountMyFunds(6000L);
         // 発生日
         row0.setAccrualDate("R4/12/21");
         // 取引相手名称
@@ -51,7 +52,7 @@ class RowShitoCoreDtoTest {
         // 備考
         row0.setBikou("備考");
         // 領収書を徴し難いかどうかのフラグ
-        row0.setFlgCollectRecipt("1");
+        row0.setFlgCollectRecipt(1);
 
         // XML生成
         String xml = xmlMapper.writeValueAsString(row0);

@@ -30,7 +30,7 @@ class Sheet0806DtoTest {
         Sheet0806Dto sheet = new Sheet0806Dto();
         sheet.setFundsName("極悪同盟専用");
         sheet.setTotalLastYear(99999999L);
-        sheet.setFundsPuropose("強烈な裏金買収");
+        sheet.setFundsPurpose("強烈な裏金買収");
         sheet.setTotal(1111L);
         sheet.setTotalBikou("合計備考");
         sheet.setTotalThisYear(91919191919L);
