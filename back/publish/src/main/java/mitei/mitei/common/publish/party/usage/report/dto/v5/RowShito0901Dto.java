@@ -30,11 +30,11 @@ public class RowShito0901Dto implements Serializable { // NOPMD DataClass
 
     /** 発生日 */
     @JacksonXmlProperty(localName = "DT")
-    private String accralDate;
+    private String accrualDate;
 
     /** 領収書が徴しがたかった事情 */
     @JacksonXmlProperty(localName = "JIJYOU")
-    private String explain;
+    private String explainText;
 
     /**
      * 行番号を取得する
@@ -113,17 +113,17 @@ public class RowShito0901Dto implements Serializable { // NOPMD DataClass
      *
      * @return 発生日
      */
-    public String getAccralDate() {
-        return accralDate;
+    public String getAccrualDate() {
+        return accrualDate;
     }
 
     /**
      * 発生日を設定する
      *
-     * @param accralDate 発生日
+     * @param accrualDate 発生日
      */
-    public void setAccralDate(final String accralDate) {
-        this.accralDate = accralDate;
+    public void setAccrualDate(final String accrualDate) {
+        this.accrualDate = accrualDate;
     }
 
     /**
@@ -131,17 +131,17 @@ public class RowShito0901Dto implements Serializable { // NOPMD DataClass
      *
      * @return 領収書を徴しがたかった事情
      */
-    public String getExplain() {
-        return explain;
+    public String getExplainText() {
+        return explainText;
     }
 
     /**
      * 領収書を徴しがたかった事情を設定する
      *
-     * @param explain 領収書を徴しがたかった事情
+     * @param explainText 領収書を徴しがたかった事情
      */
-    public void setExplain(final String explain) {
-        this.explain = explain;
+    public void setExplainText(final String explainText) {
+        this.explainText = explainText;
     }
 
 }
