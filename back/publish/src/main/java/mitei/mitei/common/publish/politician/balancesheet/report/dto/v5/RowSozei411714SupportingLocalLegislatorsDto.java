@@ -22,7 +22,7 @@ public class RowSozei411714SupportingLocalLegislatorsDto implements Serializable
 
     /** 立候補した日付 */
     @JacksonXmlProperty(localName = "DT")
-    private String date;
+    private String accrualDate;
 
     /**
      * 地方議員・首長を取得する
@@ -61,21 +61,21 @@ public class RowSozei411714SupportingLocalLegislatorsDto implements Serializable
     }
 
     /**
-     * 立候補した日付を取得する
+     * 立候補した日を取得する
      *
-     * @return 立候補した日付
+     * @return 立候補した日
      */
-    public String getDate() {
-        return date;
+    public String getAccrualDate() {
+        return accrualDate;
     }
 
     /**
-     * 立候補した日付を設定する
+     * 立候補した日を設定する
      *
-     * @param date 立候補した日付
+     * @param accrualDate 立候補した日
      */
-    public void setDate(final String date) {
-        this.date = date;
+    public void setAccrualDate(final String accrualDate) {
+        this.accrualDate = accrualDate;
     }
 
 }

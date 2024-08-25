@@ -48,7 +48,7 @@ class AllBookDtoTest {
         Sheet070100CoverAndOrganizationDetailsDto sheet070100 = new Sheet070100CoverAndOrganizationDetailsDto();
         sheet070100.setHoukokuNen(2021);
         sheet070100.setDateKaisai("");
-        sheet070100.setDantaiName("サンプル政治団体");
+        sheet070100.setDantaiName01("サンプル政治団体");
         sheet070100.setDantaiNameKana("さんぷるせいじだんたい");
         sheet070100.setJimushoJusho("東京都千代田区");
         sheet070100.setJimushoJushoTatemono("");
@@ -111,7 +111,7 @@ class AllBookDtoTest {
         sheet02.setKojiFutanSuu("");
         sheet02.setKojinKifuGoukei(0L);
         sheet02.setKojinKifuBikou("");
-        sheet02.setTokuteiKifuGoukei("");
+        sheet02.setTokuteiKifuGoukei(0L);
         sheet02.setTokuteiKifuBikou("");
         sheet02.setHoujinKifuGoukei(0L);
         sheet02.setHoujinKifuBiko("");
@@ -620,11 +620,11 @@ class AllBookDtoTest {
         sheet20.setFlgKansaIkensho(0);
         sheet20.setFlgSeijishikinHohkokusho(0);
         sheet20.setDateOath("R3/10/31");
-        sheet20.setDantaiName("サンプル政治団体");
+        sheet20.setDantaiName20("サンプル政治団体");
         sheet20.setKaikeiSekininshaNameLast("会計責任者");
         sheet20.setKaikeiSekininshaNameFirst("花子");
-        sheet20.setDaihyoushaNameLast("");
-        sheet20.setDaihyoushaNameFirst("");
+        sheet20.setDaihyoushaKaisanNameLast("");
+        sheet20.setDaihyoushaKaisanNameFirst("");
 
         allSheet0720OathDto.setSheet072000OathDto(sheet20);
 
@@ -655,7 +655,7 @@ class AllBookDtoTest {
         RowSozei411714SupportingLocalLegislatorsDto row14 = new RowSozei411714SupportingLocalLegislatorsDto();
         row14.setName("");
         row14.setSenkyo("");
-        row14.setDate("");
+        row14.setAccrualDate("");
 
         Sheet411710DonationClassifyDto sheet411710DonationClassifyDto = new Sheet411710DonationClassifyDto();
         sheet411710DonationClassifyDto.setKubun(0);

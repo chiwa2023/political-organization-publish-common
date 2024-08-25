@@ -56,7 +56,7 @@ class Sheet070900AnonymousInPoliticalPartyDtoTest {
         ///** 金額 */
         row0.setKingaku(30000L);
         ///** 発生日 */
-        row0.setDate("R4/3/1");
+        row0.setAccrualDate("R4/3/1");
         ///** 備考 */
         row0.setBiko("備考");
 

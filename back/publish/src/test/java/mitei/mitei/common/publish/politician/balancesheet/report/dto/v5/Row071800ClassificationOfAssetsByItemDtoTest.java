@@ -39,7 +39,7 @@ class Row071800ClassificationOfAssetsByItemDtoTest {
         /// ** 金額 */
         row0.setKingaku(30000L);
         /// ** 発生日 */
-        row0.setDate("R4/12/1");
+        row0.setAccrualDate("R4/12/1");
         /// ** 備考 */
         row0.setBiko("備考");
 

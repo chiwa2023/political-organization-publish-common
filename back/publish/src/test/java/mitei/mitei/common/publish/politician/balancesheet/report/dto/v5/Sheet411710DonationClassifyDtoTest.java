@@ -32,7 +32,7 @@ class Sheet411710DonationClassifyDtoTest {
         RowSozei411714SupportingLocalLegislatorsDto row2 = new RowSozei411714SupportingLocalLegislatorsDto();
         row2.setName("選挙立候補者");
         row2.setSenkyo("市議会議員選挙");
-        row2.setDate("R4/12/1");
+        row2.setAccrualDate("R4/12/1");
 
         sheet1.setRowSozei411713SupportingMembersParliamentDto(row1);
         sheet1.setRowSozei411714SupportingLocalLegislatorsDto(row2);

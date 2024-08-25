@@ -38,7 +38,7 @@ class AllSheet0705IncomeRelatedToGrantsDtoTest {
         /// ** 金額 */
         row0.setKingaku(30000L);
         /// ** 発生日 */
-        row0.setDate("R4/2/2");
+        row0.setAccrualDate("R4/2/2");
         /// ** 事務所の住所 */
         row0.setJimushoJuusho("事務所住所");
         /// ** 備考 */

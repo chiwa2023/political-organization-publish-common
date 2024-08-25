@@ -27,7 +27,7 @@ public class Row071415OrdinaryExpensesDto implements Serializable { // NOPMD Dat
 
     /** 発生日 */
     @JacksonXmlProperty(localName = "DT")
-    private String date;
+    private String accrualDate;
 
     /** 支出の相手先名称 */
     @JacksonXmlProperty(localName = "NM")
@@ -126,17 +126,17 @@ public class Row071415OrdinaryExpensesDto implements Serializable { // NOPMD Dat
      *
      * @return 発生日
      */
-    public String getDate() {
-        return date;
+    public String getAccrualDate() {
+        return accrualDate;
     }
 
     /**
      * 発生日を設定する
      *
-     * @param date 発生日
+     * @param accrualDate 発生日
      */
-    public void setDate(final String date) {
-        this.date = date;
+    public void setAccrualDate(final String accrualDate) {
+        this.accrualDate = accrualDate;
     }
 
     /**

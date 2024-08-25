@@ -38,7 +38,7 @@ class AllSheet0714ConstsDtoTest {
         /// ** 金額 */
         row1.setKingaku(30000L);
         /// ** 発生日 */
-        row1.setDate("R4/12/1");
+        row1.setAccrualDate("R4/12/1");
         /// ** 支出の相手先名称 */
         row1.setName("支出の相手先名称");
         /// ** 支出の相手先住所 */
@@ -65,7 +65,7 @@ class AllSheet0714ConstsDtoTest {
         /// ** 金額 */
         row2.setKingaku(30000L);
         /// ** 発生日 */
-        row2.setDate("R4/12/1");
+        row2.setAccrualDate("R4/12/1");
         /// ** 支出の相手先名称 */
         row2.setName("支出の相手先名称");
         /// ** 支出の相手先住所 */
@@ -91,7 +91,7 @@ class AllSheet0714ConstsDtoTest {
         /// ** 金額 */
         row3.setKingaku(30000L);
         /// ** 発生日 */
-        row3.setDate("R4/12/1");
+        row3.setAccrualDate("R4/12/1");
         /// ** 支出の相手先名称 */
         row3.setName("支出の相手先名称");
         /// ** 支出の相手先住所 */

@@ -28,7 +28,7 @@ class RowSozei411714SupportingLocalLegislatorsDtoTest {
 
         row0.setName("選挙立候補者");
         row0.setSenkyo("市議会議員選挙");
-        row0.setDate("R4/12/1");
+        row0.setAccrualDate("R4/12/1");
 
         XmlMapper xmlMapper = new XmlMapper();
         xmlMapper.setSerializationInclusion(Include.ALWAYS);

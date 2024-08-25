@@ -32,7 +32,7 @@ public class Row071000SpecificPartyDto implements Serializable { // NOPMD DataCl
 
     /** 開催日 */
     @JacksonXmlProperty(localName = "KAISAI_DT")
-    private String date;
+    private String accrualDate;
 
     /** 開催場所 */
     @JacksonXmlProperty(localName = "KAISAI_BASYO")
@@ -137,17 +137,17 @@ public class Row071000SpecificPartyDto implements Serializable { // NOPMD DataCl
      *
      * @return 発生日
      */
-    public String getDate() {
-        return date;
+    public String getAccrualDate() {
+        return accrualDate;
     }
 
     /**
      * 発生日を設定する
      *
-     * @param date 発生日
+     * @param accrualDate 発生日
      */
-    public void setDate(final String date) {
-        this.date = date;
+    public void setAccrualDate(final String accrualDate) {
+        this.accrualDate = accrualDate;
     }
 
     /**

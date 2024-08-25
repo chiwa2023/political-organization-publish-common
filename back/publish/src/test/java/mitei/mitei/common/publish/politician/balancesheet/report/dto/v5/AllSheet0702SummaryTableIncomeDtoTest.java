@@ -46,7 +46,7 @@ class AllSheet0702SummaryTableIncomeDtoTest {
         /// ** 個人寄付備考 */
         sheet0.setKojinKifuBikou("備考");
         /// ** 特定寄付合計 */
-        sheet0.setTokuteiKifuGoukei("30000");
+        sheet0.setTokuteiKifuGoukei(30000L);
         /// ** うち特定寄付備考 */
         sheet0.setTokuteiKifuBikou("備考");
         /// ** 法人寄付合計 */

@@ -25,7 +25,7 @@ public class Sheet080200WithdrawalItemsByTransferDto implements Serializable { /
 
     /** 団体名称 */
     @JacksonXmlProperty(localName = "DANTAI_NM")
-    private String dantaiName;
+    private String dantaiName0820;
 
     /**
      * 支出項目を取得する
@@ -68,17 +68,17 @@ public class Sheet080200WithdrawalItemsByTransferDto implements Serializable { /
      *
      * @return 団体名称
      */
-    public String getDantaiName() {
-        return dantaiName;
+    public String getDantaiName0820() {
+        return dantaiName0820;
     }
 
     /**
      * 団体名称を設定する
      *
-     * @param dantaiName 団体名称
+     * @param dantaiName0820 団体名称
      */
-    public void setDantaiName(final String dantaiName) {
-        this.dantaiName = dantaiName;
+    public void setDantaiName0820(final String dantaiName0820) {
+        this.dantaiName0820 = dantaiName0820;
     }
 
 }

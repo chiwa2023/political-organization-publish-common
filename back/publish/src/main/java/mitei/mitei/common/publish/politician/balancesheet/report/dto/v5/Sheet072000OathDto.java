@@ -33,7 +33,7 @@ public class Sheet072000OathDto implements Serializable { // NOPMD DataClass
 
     /** 政治団体名称 */
     @JacksonXmlProperty(localName = "DANTAI_NM")
-    private String dantaiName;
+    private String dantaiName20;
 
     /** 会計責任者姓名の姓 */
     @JacksonXmlProperty(localName = "KAI_NM1")
@@ -45,11 +45,11 @@ public class Sheet072000OathDto implements Serializable { // NOPMD DataClass
 
     /** 代表者姓名の姓 */
     @JacksonXmlProperty(localName = "DAI_NM1")
-    private String daihyoushaNameLast;
+    private String daihyoushaKaisanNameLast;
 
     /** 代表者姓名の名 */
     @JacksonXmlProperty(localName = "DAI_NM2")
-    private String daihyoushaNameFirst = "";
+    private String daihyoushaKaisanNameFirst = "";
 
     /**
      * レシート複写フラグを取得する
@@ -128,17 +128,17 @@ public class Sheet072000OathDto implements Serializable { // NOPMD DataClass
      *
      * @return 団体名称
      */
-    public String getDantaiName() {
-        return dantaiName;
+    public String getDantaiName20() {
+        return dantaiName20;
     }
 
     /**
      * 団体名称を設定する
      *
-     * @param dantaiName 団体名称
+     * @param dantaiName20 団体名称
      */
-    public void setDantaiName(final String dantaiName) {
-        this.dantaiName = dantaiName;
+    public void setDantaiName20(final String dantaiName20) {
+        this.dantaiName20 = dantaiName20;
     }
 
     /**
@@ -182,17 +182,17 @@ public class Sheet072000OathDto implements Serializable { // NOPMD DataClass
      *
      * @return 代表者名の姓
      */
-    public String getDaihyoushaNameLast() {
-        return daihyoushaNameLast;
+    public String getDaihyoushaKaisanNameLast() {
+        return daihyoushaKaisanNameLast;
     }
 
     /**
      * 代表者名の姓を設定する
      *
-     * @param daihyoushaNameLast 代表者名の姓
+     * @param daihyoushaKaisanNameLast 代表者名の姓
      */
-    public void setDaihyoushaNameLast(final String daihyoushaNameLast) {
-        this.daihyoushaNameLast = daihyoushaNameLast;
+    public void setDaihyoushaKaisanNameLast(final String daihyoushaKaisanNameLast) {
+        this.daihyoushaKaisanNameLast = daihyoushaKaisanNameLast;
     }
 
     /**
@@ -200,17 +200,17 @@ public class Sheet072000OathDto implements Serializable { // NOPMD DataClass
      *
      * @return 代表者名の名
      */
-    public String getDaihyoushaNameFirst() {
-        return daihyoushaNameFirst;
+    public String getDaihyoushaKaisanNameFirst() {
+        return daihyoushaKaisanNameFirst;
     }
 
     /**
      * 代表者名の名を設定する
      *
-     * @param daihyoushaNameFirst 代表者名の名
+     * @param daihyoushaKaisanNameFirst 代表者名の名
      */
-    public void setDaihyoushaNameFirst(final String daihyoushaNameFirst) {
-        this.daihyoushaNameFirst = daihyoushaNameFirst;
+    public void setDaihyoushaKaisanNameFirst(final String daihyoushaKaisanNameFirst) {
+        this.daihyoushaKaisanNameFirst = daihyoushaKaisanNameFirst;
     }
 
 }

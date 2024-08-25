@@ -32,7 +32,7 @@ class AllSheet0701CoverAndOrganizationDetailsDtoTest {
         /// ** 開催年月日 */
         sheet0.setDateKaisai("R4/12/1");
         /// ** 政治団体名称 */
-        sheet0.setDantaiName("サンプル政治団体");
+        sheet0.setDantaiName01("サンプル政治団体");
         /// ** 政治団体名称かな */
         sheet0.setDantaiNameKana("さんぷるせいじだんたい");
         /// ** 事務所の住所 */

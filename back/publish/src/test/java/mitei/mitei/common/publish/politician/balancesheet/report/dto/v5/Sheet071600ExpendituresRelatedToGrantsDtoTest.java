@@ -55,7 +55,7 @@ class Sheet071600ExpendituresRelatedToGrantsDtoTest {
         /// ** 金額 */
         row0.setKingaku(30000L);
         /// ** 発生日 */
-        row0.setDate("R4/12/1");
+        row0.setAccrualDate("R4/12/1");
         /// ** 本部支部への交付金支出の相手先名称 */
         row0.setHonShibuName("本部支部名称");
         /// ** 支出の相手先住所 */

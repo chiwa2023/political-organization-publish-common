@@ -27,7 +27,7 @@ class Sheet080200WithdrawalItemsByTransferDtoTest {
 
         sheet1.setShishutsuKoumoku("支出項目");
         sheet1.setTekiyou("摘要");
-        sheet1.setDantaiName("団体名称");
+        sheet1.setDantaiName0820("団体名称");
 
         XmlMapper xmlMapper = new XmlMapper();
         xmlMapper.setSerializationInclusion(Include.ALWAYS);

@@ -25,7 +25,7 @@ public class Sheet070100CoverAndOrganizationDetailsDto implements Serializable {
 
     /** 政治団体名称 */
     @JacksonXmlProperty(localName = "DANTAI_NM")
-    private String dantaiName;
+    private String dantaiName01;
 
     /** 政治団体名称かな */
     @JacksonXmlProperty(localName = "DANTAI_KANA")
@@ -236,17 +236,17 @@ public class Sheet070100CoverAndOrganizationDetailsDto implements Serializable {
      *
      * @return 団体名称
      */
-    public String getDantaiName() {
-        return dantaiName;
+    public String getDantaiName01() {
+        return dantaiName01;
     }
 
     /**
      * 団体名称を設定する
      *
-     * @param dantaiName 団体名称
+     * @param dantaiName01 団体名称
      */
-    public void setDantaiName(final String dantaiName) {
-        this.dantaiName = dantaiName;
+    public void setDantaiName01(final String dantaiName01) {
+        this.dantaiName01 = dantaiName01;
     }
 
     /**

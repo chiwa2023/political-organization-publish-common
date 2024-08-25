@@ -43,7 +43,7 @@ class AllSheet0712PartyMediationDtoTest {
         /// ** 金額 */
         row1.setKingaku(30000L);
         /// ** 発生日 */
-        row1.setDate("R4/2/2");
+        row1.setAccrualDate("R4/2/2");
         /// ** 斡旋の期間 */
         row1.setPeriodMediate("1/1-1/31");
         /// ** 住所 */
@@ -79,7 +79,7 @@ class AllSheet0712PartyMediationDtoTest {
         /// ** 金額 */
         row2.setKingaku(30000L);
         /// ** 発生日 */
-        row2.setDate("R4/2/2");
+        row2.setAccrualDate("R4/2/2");
         /// ** 斡旋の期間 */
         row2.setPeriodMediate("1/1-1/31");
         /// ** 住所 */
@@ -115,7 +115,7 @@ class AllSheet0712PartyMediationDtoTest {
         /// ** 金額 */
         row3.setKingaku(30000L);
         /// ** 発生日 */
-        row3.setDate("R4/2/2");
+        row3.setAccrualDate("R4/2/2");
         /// ** 斡旋の期間 */
         row3.setPeriodMediate("1/1-1/31");
         /// ** 住所 */

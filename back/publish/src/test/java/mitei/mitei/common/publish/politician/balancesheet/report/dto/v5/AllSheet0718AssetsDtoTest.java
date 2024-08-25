@@ -41,7 +41,7 @@ class AllSheet0718AssetsDtoTest {
         /// ** 金額 */
         row1.setKingaku(30000L);
         /// ** 発生日 */
-        row1.setDate("R4/12/1"); // NOPMD
+        row1.setAccrualDate("R4/12/1"); // NOPMD
         /// ** 備考 */
         row1.setBiko("備考");
 
@@ -65,7 +65,7 @@ class AllSheet0718AssetsDtoTest {
         /// ** 金額 */
         row2.setKingaku(30000L);
         /// ** 発生日 */
-        row2.setDate("R4/12/1");
+        row2.setAccrualDate("R4/12/1");
         /// ** 備考 */
         row2.setBiko("備考");
 
@@ -89,7 +89,7 @@ class AllSheet0718AssetsDtoTest {
         /// ** 金額 */
         row3.setKingaku(30000L);
         /// ** 発生日 */
-        row3.setDate("R4/12/1");
+        row3.setAccrualDate("R4/12/1");
         /// ** 備考 */
         row3.setBiko("備考");
 
@@ -113,7 +113,7 @@ class AllSheet0718AssetsDtoTest {
         /// ** 金額 */
         row4.setKingaku(30000L);
         /// ** 発生日 */
-        row4.setDate("R4/12/1");
+        row4.setAccrualDate("R4/12/1");
         /// ** 備考 */
         row4.setBiko("備考");
 
@@ -137,7 +137,7 @@ class AllSheet0718AssetsDtoTest {
         /// ** 金額 */
         row5.setKingaku(30000L);
         /// ** 発生日 */
-        row5.setDate("R4/12/1");
+        row5.setAccrualDate("R4/12/1");
         /// ** 備考 */
         row5.setBiko("備考");
 
@@ -161,7 +161,7 @@ class AllSheet0718AssetsDtoTest {
         /// ** 金額 */
         row6.setKingaku(30000L);
         /// ** 発生日 */
-        row6.setDate("R4/12/1");
+        row6.setAccrualDate("R4/12/1");
         /// ** 備考 */
         row6.setBiko("備考");
 
@@ -185,7 +185,7 @@ class AllSheet0718AssetsDtoTest {
         /// ** 金額 */
         row7.setKingaku(30000L);
         /// ** 発生日 */
-        row7.setDate("R4/12/1");
+        row7.setAccrualDate("R4/12/1");
         /// ** 備考 */
         row7.setBiko("備考");
 
@@ -209,7 +209,7 @@ class AllSheet0718AssetsDtoTest {
         /// ** 金額 */
         row8.setKingaku(30000L);
         /// ** 発生日 */
-        row8.setDate("R4/12/1");
+        row8.setAccrualDate("R4/12/1");
         /// ** 備考 */
         row8.setBiko("備考");
 
@@ -233,7 +233,7 @@ class AllSheet0718AssetsDtoTest {
         /// ** 金額 */
         row9.setKingaku(30000L);
         /// ** 発生日 */
-        row9.setDate("R4/12/1");
+        row9.setAccrualDate("R4/12/1");
         /// ** 備考 */
         row9.setBiko("備考");
 
@@ -257,7 +257,7 @@ class AllSheet0718AssetsDtoTest {
         /// ** 金額 */
         row10.setKingaku(30000L);
         /// ** 発生日 */
-        row10.setDate("R4/12/1");
+        row10.setAccrualDate("R4/12/1");
         /// ** 備考 */
         row10.setBiko("備考");
 
@@ -281,7 +281,7 @@ class AllSheet0718AssetsDtoTest {
         /// ** 金額 */
         row11.setKingaku(30000L);
         /// ** 発生日 */
-        row11.setDate("R4/12/1");
+        row11.setAccrualDate("R4/12/1");
         /// ** 備考 */
         row11.setBiko("備考");
 
@@ -305,7 +305,7 @@ class AllSheet0718AssetsDtoTest {
         /// ** 金額 */
         row12.setKingaku(30000L);
         /// ** 発生日 */
-        row12.setDate("R4/12/1");
+        row12.setAccrualDate("R4/12/1");
         /// ** 備考 */
         row12.setBiko("備考");
 

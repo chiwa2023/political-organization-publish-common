@@ -42,7 +42,7 @@ class Row071000SpecificPartyDtoTest {
         ///** 支払い数 */
         row0.setShiharaisu(3L);
         ///** 開催日 */
-        row0.setDate("R4/2/2");
+        row0.setAccrualDate("R4/2/2");
         ///** 開催場所 */
         row0.setKaisaiBasho("開催場所");
         ///** 備考 */

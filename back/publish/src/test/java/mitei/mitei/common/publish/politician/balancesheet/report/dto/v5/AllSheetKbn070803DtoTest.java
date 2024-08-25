@@ -39,7 +39,7 @@ class AllSheetKbn070803DtoTest {
         /// ** 金額 */
         row0.setKingaku(30000L);
         /// ** 発生日 */
-        row0.setDate("R4/2/2");
+        row0.setAccrualDate("R4/2/2");
         /// ** 斡旋の期間 */
         row0.setPeriodMediate("1/1-1/31");
         /// ** 住所 */

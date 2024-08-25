@@ -27,7 +27,7 @@ public class Row071600ExpendituresRelatedToGrantsProvidedDto implements Serializ
 
     /** 発生日 */
     @JacksonXmlProperty(localName = "DT")
-    private String date;
+    private String accrualDate;
 
     /** 本部支部への交付金支出の相手先名称 */
     @JacksonXmlProperty(localName = "HONSIBU_NM")
@@ -118,17 +118,17 @@ public class Row071600ExpendituresRelatedToGrantsProvidedDto implements Serializ
      *
      * @return 発生日
      */
-    public String getDate() {
-        return date;
+    public String getAccrualDate() {
+        return accrualDate;
     }
 
     /**
      * 発生日を設定する
      *
-     * @param date 発生日
+     * @param accrualDate 発生日
      */
-    public void setDate(final String date) {
-        this.date = date;
+    public void setAccrualDate(final String accrualDate) {
+        this.accrualDate = accrualDate;
     }
 
     /**

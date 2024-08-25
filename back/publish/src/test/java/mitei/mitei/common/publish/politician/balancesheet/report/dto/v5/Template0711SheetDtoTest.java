@@ -59,7 +59,7 @@ class Template0711SheetDtoTest {
         ///** 金額 */
         row0.setKingaku(30000L);
         ///** 発生日 */
-        row0.setDate("R4/2/2");
+        row0.setAccrualDate("R4/2/2");
         ///** 住所 */
         row0.setJusho("住所");
         ///** 職業 */

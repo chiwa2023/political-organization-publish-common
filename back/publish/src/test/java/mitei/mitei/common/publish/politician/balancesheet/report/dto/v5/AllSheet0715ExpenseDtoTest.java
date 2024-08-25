@@ -43,7 +43,7 @@ class AllSheet0715ExpenseDtoTest {
         /// ** 金額 */
         row1.setKingaku(30000L);
         /// ** 発生日 */
-        row1.setDate("R4/12/1"); // NOPMD
+        row1.setAccrualDate("R4/12/1"); // NOPMD
         /// ** 支出の相手先名称 */
         row1.setName("支出の相手先名称"); // NOPMD
         /// ** 支出の相手先住所 */
@@ -77,7 +77,7 @@ class AllSheet0715ExpenseDtoTest {
         /// ** 金額 */
         row2.setKingaku(30000L);
         /// ** 発生日 */
-        row2.setDate("R4/12/1");
+        row2.setAccrualDate("R4/12/1");
         /// ** 支出の相手先名称 */
         row2.setName("支出の相手先名称");
         /// ** 支出の相手先住所 */
@@ -111,7 +111,7 @@ class AllSheet0715ExpenseDtoTest {
         /// ** 金額 */
         row3.setKingaku(30000L);
         /// ** 発生日 */
-        row3.setDate("R4/12/1");
+        row3.setAccrualDate("R4/12/1");
         /// ** 支出の相手先名称 */
         row3.setName("支出の相手先名称");
         /// ** 支出の相手先住所 */
@@ -145,7 +145,7 @@ class AllSheet0715ExpenseDtoTest {
         /// ** 金額 */
         row4.setKingaku(30000L);
         /// ** 発生日 */
-        row4.setDate("R4/12/1");
+        row4.setAccrualDate("R4/12/1");
         /// ** 支出の相手先名称 */
         row4.setName("支出の相手先名称");
         /// ** 支出の相手先住所 */
@@ -179,7 +179,7 @@ class AllSheet0715ExpenseDtoTest {
         /// ** 金額 */
         row5.setKingaku(30000L);
         /// ** 発生日 */
-        row5.setDate("R4/12/1");
+        row5.setAccrualDate("R4/12/1");
         /// ** 支出の相手先名称 */
         row5.setName("支出の相手先名称");
         /// ** 支出の相手先住所 */
@@ -213,7 +213,7 @@ class AllSheet0715ExpenseDtoTest {
         /// ** 金額 */
         row6.setKingaku(30000L);
         /// ** 発生日 */
-        row6.setDate("R4/12/1");
+        row6.setAccrualDate("R4/12/1");
         /// ** 支出の相手先名称 */
         row6.setName("支出の相手先名称");
         /// ** 支出の相手先住所 */
@@ -247,7 +247,7 @@ class AllSheet0715ExpenseDtoTest {
         /// ** 金額 */
         row7.setKingaku(30000L);
         /// ** 発生日 */
-        row7.setDate("R4/12/1");
+        row7.setAccrualDate("R4/12/1");
         /// ** 支出の相手先名称 */
         row7.setName("支出の相手先名称");
         /// ** 支出の相手先住所 */
@@ -281,7 +281,7 @@ class AllSheet0715ExpenseDtoTest {
         /// ** 金額 */
         row8.setKingaku(30000L);
         /// ** 発生日 */
-        row8.setDate("R4/12/1");
+        row8.setAccrualDate("R4/12/1");
         /// ** 支出の相手先名称 */
         row8.setName("支出の相手先名称");
         /// ** 支出の相手先住所 */
@@ -315,7 +315,7 @@ class AllSheet0715ExpenseDtoTest {
         /// ** 金額 */
         row9.setKingaku(30000L);
         /// ** 発生日 */
-        row9.setDate("R4/12/1");
+        row9.setAccrualDate("R4/12/1");
         /// ** 支出の相手先名称 */
         row9.setName("支出の相手先名称");
         /// ** 支出の相手先住所 */

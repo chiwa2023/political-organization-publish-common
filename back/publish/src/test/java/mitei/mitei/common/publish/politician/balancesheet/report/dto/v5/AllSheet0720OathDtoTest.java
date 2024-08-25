@@ -36,15 +36,15 @@ class AllSheet0720OathDtoTest {
         /// ** 宣誓日 */
         sheet0.setDateOath("R4/12/1");
         /// ** 政治団体名称 */
-        sheet0.setDantaiName("団体名称");
+        sheet0.setDantaiName20("団体名称");
         /// ** 会計責任者姓名の姓 */
         sheet0.setKaikeiSekininshaNameLast("会計責任者の姓");
         /// ** 会計責任者姓名の名 */
         sheet0.setKaikeiSekininshaNameFirst("会計責任者の名");
         /// ** 代表者姓名の姓 */
-        sheet0.setDaihyoushaNameLast("解散時代表者の姓");
+        sheet0.setDaihyoushaKaisanNameLast("解散時代表者の姓");
         /// ** 代表者姓名の名 */
-        sheet0.setDaihyoushaNameFirst("解散時代表者の名");
+        sheet0.setDaihyoushaKaisanNameFirst("解散時代表者の名");
 
         allSheet0720OathDto.setSheet072000OathDto(sheet0);
         

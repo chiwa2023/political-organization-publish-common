@@ -30,7 +30,7 @@ public class Row080000DifficultCollectReceiptDto implements Serializable { // NO
 
     /** 発生日 */
     @JacksonXmlProperty(localName = "DT")
-    private String date;
+    private String accrualDate;
 
     /** 事情 */
     @JacksonXmlProperty(localName = "JIJYOU")
@@ -113,17 +113,17 @@ public class Row080000DifficultCollectReceiptDto implements Serializable { // NO
      *
      * @return 発生日
      */
-    public String getDate() {
-        return date;
+    public String getAccrualDate() {
+        return accrualDate;
     }
 
     /**
      * 発生日を設定する
      *
-     * @param date 発生日
+     * @param accrualDate 発生日
      */
-    public void setDate(final String date) {
-        this.date = date;
+    public void setAccrualDate(final String accrualDate) {
+        this.accrualDate = accrualDate;
     }
 
     /**

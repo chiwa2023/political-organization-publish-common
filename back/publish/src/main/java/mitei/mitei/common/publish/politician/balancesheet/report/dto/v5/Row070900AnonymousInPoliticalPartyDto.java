@@ -27,7 +27,7 @@ public class Row070900AnonymousInPoliticalPartyDto implements Serializable { // 
 
     /** 発生日 */
     @JacksonXmlProperty(localName = "DT")
-    private String date;
+    private String accrualDate;
 
     /** 備考 */
     @JacksonXmlProperty(localName = "BIKOU")
@@ -110,17 +110,17 @@ public class Row070900AnonymousInPoliticalPartyDto implements Serializable { // 
      *
      * @return 発生日
      */
-    public String getDate() {
-        return date;
+    public String getAccrualDate() {
+        return accrualDate;
     }
 
     /**
      * 発生日を設定する
      *
-     * @param date 発生日
+     * @param accrualDate 発生日
      */
-    public void setDate(final String date) {
-        this.date = date;
+    public void setAccrualDate(final String accrualDate) {
+        this.accrualDate = accrualDate;
     }
 
 }

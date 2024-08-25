@@ -27,7 +27,7 @@ public class Row070711DonateDto implements Serializable { // NOPMD DataClass
 
     /** 発生日 */
     @JacksonXmlProperty(localName = "DT")
-    private String date;
+    private String accrualDate;
 
     /** 住所 */
     @JacksonXmlProperty(localName = "ADR")
@@ -130,17 +130,17 @@ public class Row070711DonateDto implements Serializable { // NOPMD DataClass
      *
      * @return 発生日
      */
-    public String getDate() {
-        return date;
+    public String getAccrualDate() {
+        return accrualDate;
     }
 
     /**
      * 発生日を設定する
      *
-     * @param date 発生日
+     * @param accrualDate 発生日
      */
-    public void setDate(final String date) {
-        this.date = date;
+    public void setAccrualDate(final String accrualDate) {
+        this.accrualDate = accrualDate;
     }
 
     /**

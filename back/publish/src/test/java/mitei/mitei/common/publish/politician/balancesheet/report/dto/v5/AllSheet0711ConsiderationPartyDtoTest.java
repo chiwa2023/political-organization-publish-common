@@ -43,7 +43,7 @@ class AllSheet0711ConsiderationPartyDtoTest {
         /// ** 金額 */
         row1.setKingaku(30000L);
         /// ** 発生日 */
-        row1.setDate("R4/2/2");
+        row1.setAccrualDate("R4/2/2");
         /// ** 住所 */
         row1.setJusho("住所");
         /// ** 職業 */
@@ -79,7 +79,7 @@ class AllSheet0711ConsiderationPartyDtoTest {
         /// ** 金額 */
         row2.setKingaku(30000L);
         /// ** 発生日 */
-        row2.setDate("R4/2/2");
+        row2.setAccrualDate("R4/2/2");
         /// ** 住所 */
         row2.setJusho("住所");
         /// ** 職業 */
@@ -115,7 +115,7 @@ class AllSheet0711ConsiderationPartyDtoTest {
         /// ** 金額 */
         row3.setKingaku(30000L);
         /// ** 発生日 */
-        row3.setDate("R4/2/2");
+        row3.setAccrualDate("R4/2/2");
         /// ** 住所 */
         row3.setJusho("住所");
         /// ** 職業 */
