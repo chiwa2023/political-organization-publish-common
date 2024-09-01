@@ -12,7 +12,7 @@ import com.fasterxml.jackson.annotation.JsonInclude.Include;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 
-import mitei.mitei.common.publish.party.usage.report.constants.GetCurrentResourcePath;
+import mitei.mitei.common.constants.GetCurrentResourcePath;
 
 /**
  * AllSheet0709AnonymousInPoliticalPartyDto単体テスト
@@ -40,7 +40,7 @@ class AllSheet0709AnonymousInPoliticalPartyDtoTest {
         ///** 発生日 */
         row0.setAccrualDate("R4/3/1");
         ///** 備考 */
-        row0.setBiko("備考");
+        row0.setBikou("備考");
 
         sheet1.getList().add(row0);
 

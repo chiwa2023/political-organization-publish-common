@@ -1,4 +1,4 @@
-package mitei.mitei.common.publish.party.usage.report.dto.v5;
+package mitei.mitei.common.constants.party.usage;
 
 /**
  * 使途報告書様式8その2定数値

@@ -12,7 +12,7 @@ import com.fasterxml.jackson.annotation.JsonInclude.Include;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 
-import mitei.mitei.common.publish.party.usage.report.constants.GetCurrentResourcePath;
+import mitei.mitei.common.constants.GetCurrentResourcePath;
 
 /**
  * Row070400BorrowedMoneyDto単体テスト
@@ -40,7 +40,7 @@ class Row070400BorrowedMoneyDtoTest {
         ///** 金額 */
         row0.setKingaku(30000L);
         ///** 備考 */
-        row0.setBiko("備考");
+        row0.setBikou("備考");
         
         //XML生成
         String xml = xmlMapper.writeValueAsString(row0);

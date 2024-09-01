@@ -27,7 +27,7 @@ public class Row070600OtherIncomeDto implements Serializable { // NOPMD DataClas
 
     /** 備考 */
     @JacksonXmlProperty(localName = "BIKOU")
-    private String biko;
+    private String bikou;
 
     /**
      * 連番を取得する
@@ -70,17 +70,17 @@ public class Row070600OtherIncomeDto implements Serializable { // NOPMD DataClas
      *
      * @return 備考
      */
-    public String getBiko() {
-        return biko;
+    public String getBikou() {
+        return bikou;
     }
 
     /**
      * 備考を設定する
      *
-     * @param biko 備考
+     * @param bikou 備考
      */
-    public void setBiko(final String biko) {
-        this.biko = biko;
+    public void setBikou(final String bikou) {
+        this.bikou = bikou;
     }
 
     /**

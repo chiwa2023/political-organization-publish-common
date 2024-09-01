@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Test;
 
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 
-import mitei.mitei.common.publish.party.usage.report.constants.GetCurrentResourcePath;
+import mitei.mitei.common.constants.GetCurrentResourcePath;
 
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
 import com.fasterxml.jackson.databind.SerializationFeature;

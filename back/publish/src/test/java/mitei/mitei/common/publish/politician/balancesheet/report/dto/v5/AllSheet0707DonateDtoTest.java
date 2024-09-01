@@ -12,7 +12,7 @@ import com.fasterxml.jackson.annotation.JsonInclude.Include;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 
-import mitei.mitei.common.publish.party.usage.report.constants.GetCurrentResourcePath;
+import mitei.mitei.common.constants.GetCurrentResourcePath;
 
 /**
  * AllSheet0707DonateDto単体テスト
@@ -48,7 +48,7 @@ class AllSheet0707DonateDtoTest {
         /// ** 職業 */
         row1.setShokugyou("職業");
         /// ** 備考 */
-        row1.setBiko("備考");
+        row1.setBikou("備考");
         /// ** 通し番号 */
         row1.setTohshibangou(1);
         /// ** 税額控除フラグ */
@@ -83,7 +83,7 @@ class AllSheet0707DonateDtoTest {
         /// ** 職業 */
         row2.setShokugyou("職業");
         /// ** 備考 */
-        row2.setBiko("備考");
+        row2.setBikou("備考");
         /// ** 通し番号 */
         row2.setTohshibangou(1);
         /// ** 税額控除フラグ */
@@ -118,7 +118,7 @@ class AllSheet0707DonateDtoTest {
         /// ** 職業 */
         row3.setShokugyou("職業");
         /// ** 備考 */
-        row3.setBiko("備考");
+        row3.setBikou("備考");
         /// ** 通し番号 */
         row3.setTohshibangou(1);
         /// ** 税額控除フラグ */

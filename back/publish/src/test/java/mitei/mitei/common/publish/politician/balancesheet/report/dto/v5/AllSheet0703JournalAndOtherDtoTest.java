@@ -12,7 +12,7 @@ import com.fasterxml.jackson.annotation.JsonInclude.Include;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 
-import mitei.mitei.common.publish.party.usage.report.constants.GetCurrentResourcePath;
+import mitei.mitei.common.constants.GetCurrentResourcePath;
 
 /**
  * AllSheet0703JournalAndOtherDto単体テスト
@@ -32,7 +32,7 @@ class AllSheet0703JournalAndOtherDtoTest {
         row0.setIchirenNo(1);
         row0.setJigyoNoShurui("機関誌発行");
         row0.setKingaku(30000L);
-        row0.setBiko("備考");
+        row0.setBikou("備考");
 
         sheet1.getList().add(row0);
 

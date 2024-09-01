@@ -12,7 +12,7 @@ import com.fasterxml.jackson.annotation.JsonInclude.Include;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 
-import mitei.mitei.common.publish.party.usage.report.constants.GetCurrentResourcePath;
+import mitei.mitei.common.constants.GetCurrentResourcePath;
 
 /**
  * Sheet070703DonatePoliticOrgDto単体テスト
@@ -64,7 +64,7 @@ class Sheet070703DonatePoliticOrgDtoTest {
         /// ** 職業 */
         row0.setShokugyou("職業");
         /// ** 備考 */
-        row0.setBiko("備考");
+        row0.setBikou("備考");
         /// ** 通し番号 */
         row0.setTohshibangou(1);
         /// ** 税額控除フラグ */

@@ -12,7 +12,7 @@ import com.fasterxml.jackson.annotation.JsonInclude.Include;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 
-import mitei.mitei.common.publish.party.usage.report.constants.GetCurrentResourcePath;
+import mitei.mitei.common.constants.GetCurrentResourcePath;
 
 /**
  * AllSheetKbn071402Dto
@@ -43,7 +43,7 @@ class AllSheetKbn071402DtoTest {
         /// ** 支出の相手先住所 */
         row0.setJusho("東京都千代田区");
         /// ** 備考 */
-        row0.setBiko("備考");
+        row0.setBikou("備考");
         /// ** 領収書を徴しがたかったフラグ */
         row0.setFlgRyoushuusho(0);
         /// ** 交付金に係る支出フラグ */

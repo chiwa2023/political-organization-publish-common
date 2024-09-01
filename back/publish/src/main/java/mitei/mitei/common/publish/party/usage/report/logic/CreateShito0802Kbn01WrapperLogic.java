@@ -2,7 +2,7 @@ package mitei.mitei.common.publish.party.usage.report.logic;
 
 import java.util.List;
 
-import mitei.mitei.common.publish.party.usage.report.dto.v5.ConstantsKbn080201Dto;
+import mitei.mitei.common.constants.party.usage.ConstantsKbn080201Dto;
 import mitei.mitei.common.publish.party.usage.report.dto.v5.Kbn080201Dto;
 import mitei.mitei.common.publish.party.usage.report.dto.v5.RowShito0802Dto;
 import mitei.mitei.common.publish.party.usage.report.dto.v5.Sheet0806Dto;

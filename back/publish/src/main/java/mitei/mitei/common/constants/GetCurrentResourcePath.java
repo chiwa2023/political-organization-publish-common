@@ -1,4 +1,4 @@
-package mitei.mitei.common.publish.party.usage.report.constants;
+package mitei.mitei.common.constants;
 
 import java.nio.file.FileSystems;
 

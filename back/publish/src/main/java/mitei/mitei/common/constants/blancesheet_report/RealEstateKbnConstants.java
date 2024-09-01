@@ -1,4 +1,4 @@
-package mitei.mitei.common.publish.party.usage.report.constants.blancesheet_report;
+package mitei.mitei.common.constants.blancesheet_report;
 
 /**
  * 政治資金収支報告書不動産定数
@@ -25,9 +25,9 @@ public final class RealEstateKbnConstants {
 
     /** コンストラクタ */
     private RealEstateKbnConstants() {
-        
+
     }
-    
+
     /**
      * 区分に紐づく表記を返却する
      *
@@ -53,4 +53,5 @@ public final class RealEstateKbnConstants {
                 throw new IllegalArgumentException("Unexpected value: " + kbn);
         }
     }
+
 }

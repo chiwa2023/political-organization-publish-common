@@ -28,7 +28,7 @@ public class Row071000SpecificPartyDto implements Serializable { // NOPMD DataCl
 
     /** 支払い数 */
     @JacksonXmlProperty(localName = "SHIHARAI_SU")
-    private Long shiharaisu;
+    private Integer shiharaisu;
 
     /** 開催日 */
     @JacksonXmlProperty(localName = "KAISAI_DT")
@@ -40,7 +40,7 @@ public class Row071000SpecificPartyDto implements Serializable { // NOPMD DataCl
 
     /** 備考 */
     @JacksonXmlProperty(localName = "BIKOU")
-    private String biko;
+    private String bikou;
 
     /**
      * 連番を取得する
@@ -83,17 +83,17 @@ public class Row071000SpecificPartyDto implements Serializable { // NOPMD DataCl
      *
      * @return 備考
      */
-    public String getBiko() {
-        return biko;
+    public String getBikou() {
+        return bikou;
     }
 
     /**
      * 備考を設定する
      *
-     * @param biko 備考
+     * @param bikou 備考
      */
-    public void setBiko(final String biko) {
-        this.biko = biko;
+    public void setBikou(final String bikou) {
+        this.bikou = bikou;
     }
 
     /**
@@ -119,7 +119,7 @@ public class Row071000SpecificPartyDto implements Serializable { // NOPMD DataCl
      *
      * @return 支払い数
      */
-    public Long getShiharaisu() {
+    public Integer getShiharaisu() {
         return shiharaisu;
     }
 
@@ -128,7 +128,7 @@ public class Row071000SpecificPartyDto implements Serializable { // NOPMD DataCl
      *
      * @param shiharaisu 支払い数
      */
-    public void setShiharaisu(final Long shiharaisu) {
+    public void setShiharaisu(final Integer shiharaisu) {
         this.shiharaisu = shiharaisu;
     }
 

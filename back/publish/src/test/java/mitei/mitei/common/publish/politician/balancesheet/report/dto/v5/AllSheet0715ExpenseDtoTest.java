@@ -12,7 +12,7 @@ import com.fasterxml.jackson.annotation.JsonInclude.Include;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 
-import mitei.mitei.common.publish.party.usage.report.constants.GetCurrentResourcePath;
+import mitei.mitei.common.constants.GetCurrentResourcePath;
 
 /**
  * AllSheet0715ExpenseDto単体テスト
@@ -49,7 +49,7 @@ class AllSheet0715ExpenseDtoTest {
         /// ** 支出の相手先住所 */
         row1.setJusho("東京都千代田区"); // NOPMD
         /// ** 備考 */
-        row1.setBiko("備考");
+        row1.setBikou("備考");
         /// ** 領収書を徴しがたかったフラグ */
         row1.setFlgRyoushuusho(0);
         /// ** 交付金に係る支出フラグ */
@@ -83,7 +83,7 @@ class AllSheet0715ExpenseDtoTest {
         /// ** 支出の相手先住所 */
         row2.setJusho("東京都千代田区");
         /// ** 備考 */
-        row2.setBiko("備考");
+        row2.setBikou("備考");
         /// ** 領収書を徴しがたかったフラグ */
         row2.setFlgRyoushuusho(0);
         /// ** 交付金に係る支出フラグ */
@@ -117,7 +117,7 @@ class AllSheet0715ExpenseDtoTest {
         /// ** 支出の相手先住所 */
         row3.setJusho("東京都千代田区");
         /// ** 備考 */
-        row3.setBiko("備考");
+        row3.setBikou("備考");
         /// ** 領収書を徴しがたかったフラグ */
         row3.setFlgRyoushuusho(0);
         /// ** 交付金に係る支出フラグ */
@@ -151,7 +151,7 @@ class AllSheet0715ExpenseDtoTest {
         /// ** 支出の相手先住所 */
         row4.setJusho("東京都千代田区");
         /// ** 備考 */
-        row4.setBiko("備考");
+        row4.setBikou("備考");
         /// ** 領収書を徴しがたかったフラグ */
         row4.setFlgRyoushuusho(0);
         /// ** 交付金に係る支出フラグ */
@@ -185,7 +185,7 @@ class AllSheet0715ExpenseDtoTest {
         /// ** 支出の相手先住所 */
         row5.setJusho("東京都千代田区");
         /// ** 備考 */
-        row5.setBiko("備考");
+        row5.setBikou("備考");
         /// ** 領収書を徴しがたかったフラグ */
         row5.setFlgRyoushuusho(0);
         /// ** 交付金に係る支出フラグ */
@@ -219,7 +219,7 @@ class AllSheet0715ExpenseDtoTest {
         /// ** 支出の相手先住所 */
         row6.setJusho("東京都千代田区");
         /// ** 備考 */
-        row6.setBiko("備考");
+        row6.setBikou("備考");
         /// ** 領収書を徴しがたかったフラグ */
         row6.setFlgRyoushuusho(0);
         /// ** 交付金に係る支出フラグ */
@@ -253,7 +253,7 @@ class AllSheet0715ExpenseDtoTest {
         /// ** 支出の相手先住所 */
         row7.setJusho("東京都千代田区");
         /// ** 備考 */
-        row7.setBiko("備考");
+        row7.setBikou("備考");
         /// ** 領収書を徴しがたかったフラグ */
         row7.setFlgRyoushuusho(0);
         /// ** 交付金に係る支出フラグ */
@@ -287,7 +287,7 @@ class AllSheet0715ExpenseDtoTest {
         /// ** 支出の相手先住所 */
         row8.setJusho("東京都千代田区");
         /// ** 備考 */
-        row8.setBiko("備考");
+        row8.setBikou("備考");
         /// ** 領収書を徴しがたかったフラグ */
         row8.setFlgRyoushuusho(0);
         /// ** 交付金に係る支出フラグ */
@@ -321,7 +321,7 @@ class AllSheet0715ExpenseDtoTest {
         /// ** 支出の相手先住所 */
         row9.setJusho("東京都千代田区");
         /// ** 備考 */
-        row9.setBiko("備考");
+        row9.setBikou("備考");
         /// ** 領収書を徴しがたかったフラグ */
         row9.setFlgRyoushuusho(0);
         /// ** 交付金に係る支出フラグ */

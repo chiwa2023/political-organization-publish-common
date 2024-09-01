@@ -12,7 +12,7 @@ import com.fasterxml.jackson.annotation.JsonInclude.Include;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 
-import mitei.mitei.common.publish.party.usage.report.constants.GetCurrentResourcePath;
+import mitei.mitei.common.constants.GetCurrentResourcePath;
 
 /**
  * AllSheet0710SpecificPartyDto単体テスト
@@ -38,13 +38,13 @@ class AllSheet0710SpecificPartyDtoTest {
         /// ** 金額 */
         row0.setKingaku(30000L);
         /// ** 支払い数 */
-        row0.setShiharaisu(3L);
+        row0.setShiharaisu(3);
         /// ** 開催日 */
         row0.setAccrualDate("R4/2/2");
         /// ** 開催場所 */
         row0.setKaisaiBasho("開催場所");
         /// ** 備考 */
-        row0.setBiko("備考");
+        row0.setBikou("備考");
 
         sheet1.getList().add(row0);
 
