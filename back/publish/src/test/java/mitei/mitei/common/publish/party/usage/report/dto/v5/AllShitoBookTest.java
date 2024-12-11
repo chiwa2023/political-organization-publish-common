@@ -33,7 +33,7 @@ class AllShitoBookTest {
         Path pathAnswer = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(), "dto/publish/party_usage/SITO_LEAST.xml");
         String readText = Files.readString(pathAnswer, Charset.forName("windows-31j"));
 
-        AllShitoBook allShitoBook = xmlMapper.readValue(readText, new TypeReference<>() {
+        AllShitoBook allShitoBook = xmlMapper.readValue(readText, new TypeReference<AllShitoBook>() {
         });
 
         // <HEAD>
@@ -156,7 +156,7 @@ class AllShitoBookTest {
         Path pathRead = Paths.get(GetCurrentResourcePath.getBackTestResourcePath(), "dto/publish/party_usage/SITO.xml");
         String readText =Files.readString(pathRead, Charset.forName("windows-31j"));
 
-        AllShitoBook allShitoBook = xmlMapper.readValue(readText, new TypeReference<>() {
+        AllShitoBook allShitoBook = xmlMapper.readValue(readText, new TypeReference<AllShitoBook>() {
         });
 
         // 読んだデータを使ってデータ吐き出し
